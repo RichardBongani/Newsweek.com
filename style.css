@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 100px;
+    font-family: 'Arvo', serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 45px;
+    color: white;
+}
+
+.sub {
+    margin-left: 310%;
+    background-color: white;
+    width: 100%;
+    color: red;
+    font-weight: bold;
+}
+
+.nav {
+    background-color: red;
+}
+
+.my_date, .sign {
+    color: white;
+}
+
+.sign {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-link1 {
+    color: black;
+    padding: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
