@@ -50,6 +50,12 @@ body {
     font-size: 17px;
 }
 
+.title {
+    position: relative;
+    left: 280px;
+    font-size: 80px;
+}
+
 .container {
     padding-top: 40px;
     padding-right: 105px;
@@ -76,7 +82,12 @@ body {
     height:364px;
 }
 
-.feature, .top_story, .opinions_heading, .culture_heading{
+.feature, 
+.top_story, 
+.opinions_heading, 
+.culture_heading,
+.latest-news, 
+.more-heading {
     font-weight: bold;
     color:	#A8A8A8;
 }
@@ -107,6 +118,13 @@ body {
     height: 890px;
 }
 
+.culture_heading {
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+
 .visit_image,
 .beer_image, 
 .diving_img {
@@ -123,6 +141,7 @@ body {
 .link_craft {
     background-color: #B0B0B0;
     font-size: 15px;
+    color: black;
 }
 
 .unplug,
@@ -132,12 +151,16 @@ body {
     font-size: 15px;
 }
 
-.link_royal:hover, .link_craft:hover{
+.link_royal:hover, 
+.link_craft:hover {
     background-color: black;
     text-decoration: none;
 }
 
-.revive_pakistan, .worth_travelling, .sports, .hidden-track {
+.revive_pakistan, 
+.worth_travelling, 
+.sports, 
+.hidden-track {
     font-size: 22px;
     font-family: 'Arvo', serif;
 }
@@ -148,4 +171,127 @@ body {
 
 .cloud_hills {
     padding-top: 10px;
+}
+
+.ex-trump, 
+.chicago-img, 
+.school, 
+.bts-memebers, 
+.Amazonian-bird, 
+.aoc-img,
+.warren-img {
+    width: 150px;
+    height: 100px;
+}
+
+.link-official {
+    color: black;
+    font-weight: bold;
+}
+
+.link-official:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.more-heading {
+    padding-top:15px;
+}
+
+.everyone-loses-img, 
+.storm-img {
+    width: 140px;
+    height: 100px;
+}
+
+.link-stories {
+    color: black;
+    font-weight: bold;
+}
+
+.link-stories:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#sign-up {
+    background-color: #F5F5F5;
+    border: 1px solid #E0E0E0 ;
+    height: 150px;
+    width:250px;
+}
+
+
+.logo {
+    width:10px;
+    height: 10px;
+}
+
+.newsletter {
+    font-weight: bold;
+position: relative;
+left: 45px;
+top: 10px;
+font-size: 15px;
+}
+
+.sign-newsletter {
+    color: white;
+    background-color: #505050;
+    width: 95px;
+    height: 35px;
+    border: none;
+    position: relative;
+    right: 24px;
+    top:10px;
+}
+
+.sign-newsletter:hover {
+    background-color: #B0B0B0; 
+}
+
+.pref-link {
+    text-decoration: none;
+    color: black;
+}
+
+.pref-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.newsletter {
+    padding-left: 10px;
+}
+
+.news-img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 45px;
+    left: 15px;
+}
+
+.preferences {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 18px;
+}
+
+.main-container {
+    background-color: white;
+}
+
+.main-header2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-logo {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 523px;
+    top: 27px;
 }
