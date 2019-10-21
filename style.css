@@ -76,6 +76,23 @@ body {
     color:	#A8A8A8;
 }
 
-.trump_admin {
+.link_story {
     font-weight: bold;
+    color: black; 
+}
+
+.link_story:hover {
+    color:red;
+    text-decoration: none;
+}
+
+.author1,
+.author2,
+.author3,
+.author4,
+.author5,
+.author6 {
+    color: 	#585858;
+    font-weight: bold; 
+    font-size: 15px;
 }
