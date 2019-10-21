@@ -71,7 +71,11 @@ body {
     height:364px;
 }
 
-.feature, .top_story {
+.feature, .top_story, .opinions_heading {
     font-weight: bold;
     color:	#A8A8A8;
+}
+
+.trump_admin {
+    font-weight: bold;
 }
