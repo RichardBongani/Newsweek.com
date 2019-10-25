@@ -3,8 +3,10 @@
     padding: 0;
 }
 
-header {
+header, .main-container {
     background-color: white;
+    margin: 0 10px 0 10px;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -294,4 +296,178 @@ font-size: 15px;
     position: relative;
     left: 523px;
     top: 27px;
+}
+
+.my-container {
+    background-color: white;
+    margin: 0 10px 0 10px;
+    padding-top: 5%;
+}
+
+.see-features {
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    width: 67%;
+}
+
+.see-features:hover {
+    background-color: #D0D0D0;
+    text-decoration: none;
+}
+
+.pence {
+    width: 70%;
+}
+
+.header-link {
+text-decoration-style: none;
+    color: black;
+}
+
+.cover-us {
+    max-width: 100%;
+    height: 50%;
+}
+
+.cover1 {
+    position: relative;
+    right: 105px;
+    top: 37px;
+}
+
+.magazine-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.n-logo {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 43%;
+    top: 30px;
+}
+
+.n-logo2 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 42%;
+    top: 30px;
+}
+
+.n-logo3 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 39%;
+    top: 30px;
+}
+
+.cover-us1 {
+    height: 50%;
+    width:  140%;
+}
+
+.party-chatter, 
+.recession, 
+.jim, .max, .political-endorsements {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.feat {
+    width: 77px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+
+.us {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 60px;
+    position: relative;
+    top: 10px;
+}
+
+.periscope {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    position: relative;
+    top: 10px;
+}
+
+.maximum-pressure {
+    width: 70%;
+    bottom: 15%;
+}
+
+.maximum-img {
+    width: 95%;
+}
+
+.maximum-img1 {
+    width: 145%;
+}
+
+.iran-policy {
+    font-weight: bold;
+    width: 120%;
+}
+
+.scope {
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    background-color: red;
+    color: white;
+    width: 25%;
+}
+
+.analysis-img {
+    width: 100%;
+    height: 40%;
+}
+
+.analysis-img2 {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    bottom: 20px;
+}
+
+.cosplay {
+    width: 100%;
+}
+
+.nycc {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.united-states {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.school-safety {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fox-anchor {
+    width: 130px;
+    height: 100px;
+}
+
+.donald {
+    font-weight: bold;
 }
