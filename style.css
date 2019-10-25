@@ -471,3 +471,23 @@ text-decoration-style: none;
 .donald {
     font-weight: bold;
 }
+.in_depth2 {
+    background-color: 	#E8E8E8;
+}
+
+.daily_briefing {
+    border: 1px solid #E8E8E8;
+}
+
+.my_footer {
+    background-color: white;
+}
+
+.facebook, 
+.twitter, 
+.instagram, 
+.tumblr, 
+.linkedin {
+    height: 25px;
+    width: 25px;
+}
