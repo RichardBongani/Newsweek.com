@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.my-daily {
+    width: 100%;
+}
+
 header, .main-container {
     background-color: white;
     margin: 0 10px 0 10px;
@@ -182,8 +186,17 @@ body {
 .Amazonian-bird, 
 .aoc-img,
 .warren-img {
-    width: 150px;
+    width: 115px;
     height: 100px;
+}
+
+.president {
+    width: 170px;
+    height: 230px;
+}
+
+.para {
+    min-width: 120%;
 }
 
 .link-official {
@@ -298,7 +311,8 @@ font-size: 15px;
     top: 27px;
 }
 
-.my-container, .my_main_container {
+.my-container, 
+.my_main_container {
     background-color: white;
     margin: 0 10px 0 10px;
     padding-top: 5%;
@@ -372,7 +386,8 @@ text-decoration-style: none;
 
 .party-chatter, 
 .recession, 
-.jim, .max, .political-endorsements {
+.jim, .max, 
+.political-endorsements {
     font-weight: bold;
     font-size: 18px;
 }
@@ -466,6 +481,8 @@ text-decoration-style: none;
 .fox-anchor {
     width: 130px;
     height: 100px;
+    position: relative;
+    left: 50px;
 }
 
 .donald {
@@ -478,6 +495,9 @@ text-decoration-style: none;
 
 .daily_briefing {
     border: 1px solid #E8E8E8;
+    height: 283px;
+    position: relative;
+    left: 15px;
 }
 
 .my_footer {
@@ -513,7 +533,8 @@ text-decoration-style: none;
     left: 55px;
 }
 
-.foo_list, .list_edition {
+.foo_list, 
+.list_edition {
     display: inline;
 }
 
@@ -568,4 +589,20 @@ text-decoration-style: none;
 .listi_link:hover {
     text-decoration: none;
     color: red;
+}
+
+.chrissy-teigen {
+    width: 110%;
+    height: 265px;
+    padding-right: 18px;
+}
+
+.sign-btn {
+    background-color: red;
+    color: white;
+    border: 1px solid #E8E8E8;
+    border-radius: 3px;
+    height: 35px;
+    font-weight: bold;
+    width: 95px;
 }
