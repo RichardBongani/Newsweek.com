@@ -7,6 +7,11 @@
     width: 100%;
 }
 
+.me {
+    position: relative;
+    top: 50px;
+}
+
 header, .main-container {
     background-color: white;
     margin: 0 10px 0 10px;
@@ -28,7 +33,10 @@ body {
 }
 
 .sub {
-    margin-left: 310%;
+    height: 35px;
+    margin-left: 355%;
+    position: relative;
+    top: 75px;
     background-color: white;
     width: 100%;
     color: red;
@@ -37,6 +45,7 @@ body {
 
 .nav {
     background-color: red;
+    height: 65px;
 }
 
 .my_date, .sign {
@@ -46,6 +55,8 @@ body {
 .sign {
     font-weight: bold;
     font-size: 20px;
+    position: relative;
+    left: 40px;
 }
 
 .nav-link1 {
@@ -157,6 +168,11 @@ body {
     font-size: 15px;
 }
 
+.jamal-img {
+    width: 130px;
+    height: 70px;
+}
+
 .link_royal:hover, 
 .link_craft:hover {
     background-color: black;
@@ -188,6 +204,24 @@ body {
 .warren-img {
     width: 115px;
     height: 100px;
+}
+
+.Arrested {
+    font-size: 13px;
+}
+
+.elizabeth-warren, 
+.challenge-fox, 
+.taking-off, 
+.members, 
+.naacp, 
+.strike, 
+.official-discribes {
+    font-size: 13px;
+}
+
+.donald {
+    font-size:  15px;
 }
 
 .president {
@@ -309,6 +343,11 @@ font-size: 15px;
     position: relative;
     left: 523px;
     top: 27px;
+}
+
+.my_content {
+    position: relative;
+    top: 20px;
 }
 
 .my-container, 
@@ -467,6 +506,7 @@ text-decoration-style: none;
     font-size: 18px;
 }
 
+
 .united-states {
     color: red;
     font-weight: bold;
@@ -546,6 +586,16 @@ text-decoration-style: none;
     font-size: 15px;
 }
 
+.footer_link:hover {
+    text-decoration: none;
+    color: #787878;
+}
+
+.edition_link:hover {
+    text-decoration: none;
+    color: #787878;
+}
+
 .my_sub {
     background-color: red;
     color: white;
@@ -597,6 +647,13 @@ text-decoration-style: none;
     padding-right: 18px;
 }
 
+.chrissy1 {
+    height: 282px;
+    width: 110%;
+    position: relative;
+    right: 15px;
+}
+
 .sign-btn {
     background-color: red;
     color: white;
@@ -605,4 +662,74 @@ text-decoration-style: none;
     height: 35px;
     font-weight: bold;
     width: 95px;
+}
+
+.my-search {
+    position: relative;
+    left: 950px;
+}
+
+.short-term, 
+.eric-mayor, 
+.sergei, 
+.duke-of-suxxes, 
+.thr-politician, 
+.russian-queen, 
+.anti-defamation, 
+.los-alamos {
+    font-size: 14px;
+}
+
+.shooting-plasma, 
+.pittsburg, 
+.helen-mirren, 
+.romney, 
+.harry, 
+.defense-minister, 
+.dallas-tornado, 
+.trade-wars {
+    font-size: 14px;
+}
+
+.shooting-plasma, 
+.los-alamos, 
+.anti-defamation, 
+.pittsburg, 
+.russian-queen, 
+.helen-mirren, 
+.the-politician, 
+.romney, 
+.duke-of-suxxes, 
+.harry, 
+.sergei, 
+.defense-minister, 
+.eric-mayor, 
+.dallas-tornado, .short-term, .trade-wars {
+    position: relative;
+    right: 150px;
+}
+
+#line {
+    position: relative;
+    right: 155px;
+}
+
+.me {
+    position: relative;
+    bottom: 295px;
+}
+
+.pic-link {
+    color: black; 
+}
+
+.pic-link:hover {
+    text-decoration: none;
+    color:black;
+}
+
+.kirk, 
+.ryna-img {
+    display:flex;
+    flex-direction: row;
 }
