@@ -9,7 +9,7 @@
 
 .me {
     position: relative;
-    top: 50px;
+    top: 5px;
 }
 
 header, 
@@ -208,7 +208,7 @@ body {
 .Amazonian-bird, 
 .aoc-img,
 .warren-img {
-    width: 115px;
+    width: 145px;
     height: 100px;
 }
 
@@ -782,7 +782,7 @@ text-decoration-style: none;
 
 .line1{
     position: relative;
-    top: 85px;
+    top: 15px;
 }
 
 .line2 {
@@ -792,7 +792,7 @@ text-decoration-style: none;
 
 .liney {
     position: relative;
-    bottom: 15px;
+    bottom: 130px;
 }
 
 .latest-container {
@@ -805,11 +805,17 @@ text-decoration-style: none;
 }
 
 .anne-container {
-padding-top: 160px;
+padding-top: 40px;
 }
 
-.reverend-container {
-    padding-top: 90px;
+.reverend-container, 
+.peter_sub-container {
+    padding-top: 10px;
+    display: flex;
+}
+.fake-sub, 
+.beto-sub {
+    flex: 1;
 }
 
 .former-container {
@@ -819,3 +825,16 @@ padding-top: 160px;
 .Arrested {
     font-size:  16px;
 }
+
+.news {
+    padding-right: 25px;
+}
+
+.my_content {
+    padding-top: 55px;
+}
+
+.more-stories-container {
+    padding-left: 13px;
+}
+
