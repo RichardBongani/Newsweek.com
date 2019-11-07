@@ -7,9 +7,26 @@
     width: 100%;
 }
 
+.signing-in {
+    position: relative;
+    top: 70px;
+    left: 420px;
+}
+
+.sign {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .me {
     position: relative;
     top: 5px;
+    bottom: 295px;
+}
+
+.my_date {
+    position: relative;
+    top: 80px;
 }
 
 header, 
@@ -17,6 +34,11 @@ header,
     background-color: white;
     margin: 0 10px 0 10px;
     background-repeat: no-repeat;
+}
+
+.red-back {
+    background-color: red;
+    height: 155px;
 }
 
 body {
@@ -33,9 +55,18 @@ body {
     color: white;
 }
 
+.title:hover, 
+.sign:hover {
+    color: white;
+}
+
+.sub:hover {
+    color: red;
+}
+
 .sub {
-    height: 35px;
-    margin-left: 355%;
+    height: 34px;
+    margin-left: 300%;
     position: relative;
     top: 75px;
     background-color: white;
@@ -44,28 +75,27 @@ body {
     font-weight: bold;
 }
 
-.nav {
-    background-color: red;
-    height: 65px;
-}
-
-.my_date, .sign {
-    color: white;
-}
-
+.my_date, 
 .sign {
-    font-weight: bold;
-    font-size: 20px;
-    position: relative;
-    left: 40px;
+    color: white;
 }
 
 .nav-link1 {
     color: black;
-    padding: 20px;
-    background-color: white;
+    padding: 15px;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 19px;
+}
+
+.nav-link1:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.navigation {
+    background-color: blue;
+    position: relative;
+    bottom: 15px;
 }
 
 .title {
@@ -287,7 +317,6 @@ body {
     top: 50px;
 }
 
-
 .logo {
     width:10px;
     height: 10px;
@@ -295,10 +324,10 @@ body {
 
 .newsletter {
     font-weight: bold;
-position: relative;
-left: 45px;
-top: 10px;
-font-size: 15px;
+    position: relative;
+    left: 45px;
+    top: 10px;
+    font-size: 15px;
 }
 
 .sign-newsletter {
@@ -733,11 +762,6 @@ text-decoration-style: none;
     right: 155px;
 }
 
-.me {
-    position: relative;
-    bottom: 295px;
-}
-
 .pic-link {
     color: black; 
 }
@@ -837,4 +861,3 @@ padding-top: 40px;
 .more-stories-container {
     padding-left: 13px;
 }
-
