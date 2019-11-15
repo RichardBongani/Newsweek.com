@@ -12,26 +12,34 @@
 </head>
 
 <body>
-  <header class="main-header">
-    <div class="red-back container-fluid">
+  <header class="main-header  d-flex align-content-center sticky-top pr-lg-0 pl-lg-2 ">
+  <div class="red-back container-fluid">
     <div class="nav">
       <div class="date">
-        <date class="my_date">Fri, Oct 18, 2019</date>
+        <date class="my_date d-none d-lg-inline-block navbar-date mt-4 ml-xl-4">Fri, Oct 18, 2019</date>
       </div>
-      <div class="nav-item">
-        <a class="nav-link title" href="#">NEWSWEEK</a>
+      <div class="nav-items big-navbar-logo">
+        <a class="nav-link title d-block" href="#">NEWSWEEK</a>
       </div>
-      <div class="nav-item signing-in">
-        <a class="nav-link sign" href="#">SIGN IN</a>
+      <div class="nav-items signing-in">
+        <a class="nav-link sign  ml-auto mr-1 navbar-sign-in mt-lg-4 right-navbar-item" href="#">SIGN IN</a>
       </div>
-      <div class="nav-item">
-        <a class="nav-link sub" href="#">SUBSCRIBE  ></a>
+      <div class="nav-items">
+        <a class="nav-link sub mr-1 mt-lg-4 mr-lg-0 right-navbar-item" href="#">SUBSCRIBE  ></a>
       </div>
     </div>
   </div>
-    <nav class="navigation">
-      <ul class="nav">
-        <li class="nav-item">
+</header>
+<div class="skew-wrapper float-right">
+  <div class="nav-skew"></div>
+  <div class="skew-filler"></div>
+</div>
+
+<section class="nav-container-top">
+    <nav class="navigation d-none d-lg-block">
+      <ul class="nav d-flex second-row-navbar justify-content-around
+      pt-3">
+        <li class="nav-item border-left-0">
           <a class="nav-link1 active" href="#">U.S.</a>
         </li>
         <li class="nav-item">
@@ -64,14 +72,18 @@
         <li class="nav-item">
           <a class="nav-link1" href="#">Vantage</a>
         </li>
+        <li>
         <input title="Enter the terms you wish to search for." placeholder="Search" type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+        </li>
+        <i class="fas fa-search search-icon"></i>
       </ul>
       <hr>
     </nav>
+  </section>
     <!-------------------------THIS IS WHERE THE 1st COLUMN STARTS AFTER THE NAVIGATION BAR--------------------------->
-    <div class="container-fluid my_content">
+    <main class="container-fluid my_content">
       <div class="row">
-        <div class="col">
+        <div class="col-md-3">
           <h6 class="feature">FEATURED STORIES</h6>
           <img
             src="https://d.newsweek.com/en/full/1537826/ras-al-ayn-syria-white-phosphorous.jpg?w=397&amp;h=265&amp;q=90&amp;f=3fccde2e7949a38434125f749d655cb6"
@@ -101,7 +113,7 @@
         <!-----------------THIS IS WHERE THE 1st COLUMN ENDS------------>
 
         <!---------------------THIS IS THE MIDDLE COLUMN-------------------->
-        <div class="col-md top_story-container">
+        <div class="col-md-6 top_story-container">
           <div class="top">
           <h6 class="top_story">TOP STORY</h6>
           <img class="speech"
@@ -160,7 +172,7 @@
                   src="https://d.newsweek.com/en/full/1535953/liu-he-donald-trump.jpg?w=135&amp;h=90&amp;f=45c035fc7b52d9b139f04abea8112afb"
                   alt="everyone">
               </div>
-              <div class="col">
+              <div class="col my_msg ">
                 <p class="trade-wars"><a href="#" class="link-stories">'Everyone Loses' in Trade Wars, IMF Chief Warns</a></p>
                 <p class="short-term">"In the short term, the United States is losing less than China, but everyone
                   loses,"International Monetary Fund Chief Economist Gita Gopinath told Spanish daily newspaper El Pais.</p>
@@ -267,7 +279,7 @@
         <!-------------------THIS IS WHERE THE MIDDLE BUTTON ENDS------------------->
 
         <!----------------------THIS IS WHERE THE 3rd COLUMN STARTS------------------>
-        <div class="col me">
+        <div class="col-md-3 me">
             <div class="authors-container">  
             <h6 class="opinions_heading">OPINIOS</h6>
             <div class="kirk">
@@ -335,6 +347,7 @@
                 </div>
                 </div>
               </div>
+              
               <div class="latest-container">
           <h6 class="latest-news">LATEST NEWS</h6>
           <div class="row">
@@ -429,9 +442,8 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
     <!----------------------------------THIS IS WHERE THE 3RD COLUMN ENDS------------------------------>
-  </header>
   <section class="my_main_container">
     <main class="my-container">
       <div class="container-fluid">
@@ -676,24 +688,24 @@
                   </div>
                   <hr>
                   <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                       <img class="fox-anchor"
                         src="https://d.newsweek.com/en/full/1538842/classic-cars-lined-car-show.jpg?w=135&amp;h=90&amp;f=eb6cef15924844373b5442dfaecb27b1"
                         alt="cars">
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                       <p class="donald">Fox Anchor Criticizes Donald Trump's Attacks on Media: 'It's a Problem'</p>
                     </div>
                   </div>
                   <hr>
                   <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                       <img class="fox-anchor"
                         src="https://d.newsweek.com/en/full/1538826/celebrities-visit-hallmarks-home-family.jpg?w=135&amp;h=90&amp;f=19601089b4454e6f731c3adbe9b4d854"
                         alt="kevin">
                     </div>
-                    <div class="col-6">
-                      <p class="donald">Fox Anchor Criticizes Donald Trump's Attacks on Media: 'It's a Problem'</p>
+                    <div class="col-md-6">
+                      <a href></a><p class="donald">Fox Anchor Criticizes Donald Trump's Attacks on Media: 'It's a Problem'</p>
                     </div>
                   </div>
                 </div>
@@ -988,7 +1000,7 @@
                       <img class="president" src="https://d.newsweek.com/en/full/1536427/october-25-2019.jpg?w=170&amp"
                         alt="pres">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 indepth">
                       <p class="school-safety">In-depth Stories You Don't See Elsewhere About Topics You Want to
                         Read!</p>
                       <p class="all-access">All Access + Weekly Delivery.<br>
@@ -1078,6 +1090,7 @@
       </div>
     </footer>
   </section>
+  <script src="https://kit.fontawesome.com/4769bb681b.js"></script>
 </body>
 
 </html>
