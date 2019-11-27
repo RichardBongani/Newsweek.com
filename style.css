@@ -12,10 +12,6 @@ body {
     overflow-x: hidden;
 }
 
-.my_msg  {
-    width : 100%;
-}
-
 .my-daily {
     width: 100%;
 }
@@ -52,6 +48,9 @@ body {
 .red-back {
     background-color: red;
     height: 155px;
+    width: 1340px;
+    position: relative;
+    left: 5px;
 }
 
 .title {
@@ -163,7 +162,7 @@ nav::before {
 }
 
 .speech {
-    width: 500px;
+    width: 560px;
     height: 350px;
 }
 
@@ -188,11 +187,17 @@ nav::before {
     text-decoration: none;
 }
 
+.authors-container {
+    position: relative;
+    right:  10px;
+    width: 100%;
+}
+
 .top_story-container {
-    width: 50%;
+    width: 100%;
     padding-left: 95px;
     position: relative;
-    right: 25px;
+    right: 8px;
 }
 
 .author1,
@@ -443,6 +448,19 @@ nav::before {
     background-color: white;
     margin: 0 10px 0 10px;
     padding-bottom: 5%;
+    height: 5400px;
+}
+
+.my_main_container {
+    position: relative;
+    bottom: 30px;
+}
+
+.my_mag_line {
+    width: 930px;
+    position: relative;
+    left: 330px;
+    top: 30px;
 }
 
 .see-features {
@@ -452,17 +470,39 @@ nav::before {
     width: 67%;
 }
 
-.see-features:hover {
-    background-color: #D0D0D0;
-    text-decoration: none;
-}
-
 .pence {
-    width: 60%;
+    width: 68%;
+    position: relative;
+    left: 15px;
 }
 
 .header-link {
-text-decoration-style: none;
+    text-decoration-style: none;
+    color: black;
+    position: relative;
+    left: 55px;
+}
+
+.see-features:hover {
+    background-color: #D0D0D0;
+    position: relative;
+    left:  15px;
+    width: 277px;
+}
+
+.editos_topic {
+    position: relative;
+    bottom: 35px;
+    right: 81px;
+    color: red;
+    font-weight: bold;
+    background-color: #F5F5F5;
+    width: 120px;
+    height: 35px;
+}
+
+.header-link:hover {
+    text-decoration: none;
     color: black;
 }
 
@@ -480,6 +520,11 @@ text-decoration-style: none;
 .magazine-title {
     text-align: center;
     font-weight: bold;
+}
+
+.my-Mag {
+    position: relative;
+    top: 25px;
 }
 
 .n-logo {
@@ -576,7 +621,7 @@ text-decoration-style: none;
 
 .analysis-img {
     width: 100%;
-    height: 40%;
+    height: 43%;
 }
 
 .analysis-img2 {
@@ -632,6 +677,8 @@ text-decoration-style: none;
 .my_footer {
     background-color: white;
     height: 250px;
+    position: relative;
+    bottom: 35px;
 }
 
 .facebook, 
@@ -775,6 +822,13 @@ text-decoration-style: none;
     padding-left: 35px;
 }
 
+
+.my_line1 {
+    width: 325px;
+    position: relative;
+    left: 45px;
+}
+
 .shooting-plasma, 
 .pittsburg, 
 .helen-mirren, 
@@ -802,11 +856,18 @@ text-decoration-style: none;
 .dallas-tornado, .short-term, .trade-wars {
     position: relative;
     right: 150px;
+    margin: -5px;
 }
 
 #line {
     position: relative;
     right: 155px;
+    width: 400px;
+}
+
+.my_msg3 {
+    position: relative;
+    left: 95px;
 }
 
 .pic-link {
