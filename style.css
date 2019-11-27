@@ -992,3 +992,56 @@ padding-top: 40px;
     right: 95px;
     top: 45px;
 }
+
+.small_screens {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-header {
+        display: none;
+    }
+
+    .my_content {
+        position: relative;
+        top: 0px;
+        right: 10px;
+    }
+
+    .small_screens {
+        height: 50px;
+        display: contents;
+    }
+
+    .nav {
+        background-color: #f72210;
+        height: 50px;
+        width: 100%;
+    }
+
+    .mytitle {
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .col1_small {
+        display: none;
+    }
+
+    .top {
+        position: relative;
+        right: 75px;
+    }
+
+    .speech {
+        width: 330px;
+        height: 200px;
+    }
+
+    .my {
+        position: relative;
+        bottom: 35px;
+    }
+
+}
