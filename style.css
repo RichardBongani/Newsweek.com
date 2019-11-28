@@ -156,7 +156,10 @@ nav::before {
     font-size: 20px;
 }
 
-.img_fire {
+.img_fire, 
+.Donald_trump, 
+.congress, 
+.americas_customer_service {
     width: 377px;
     height: 265px;
 }
@@ -862,7 +865,6 @@ nav::before {
 #line {
     position: relative;
     right: 155px;
-    width: 400px;
 }
 
 .my_msg3 {
@@ -1042,6 +1044,15 @@ padding-top: 40px;
     .my {
         position: relative;
         bottom: 35px;
+    }
+
+    .culture {
+        display: none;
+    }
+
+    .more-stories-container {
+        position: relative;
+        right: 75px;
     }
 
 }
