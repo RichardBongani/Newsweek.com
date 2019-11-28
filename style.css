@@ -863,7 +863,7 @@ nav::before {
     margin: -5px;
 }
 
-#line {
+.m_line {
     position: relative;
     right: 155px;
 }
