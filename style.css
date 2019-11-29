@@ -38,7 +38,7 @@ body {
   top: 80px;
 }
 
-.main-container, 
+.main-container,
 .my_content {
   background-color: white;
   margin: 0 10px 0 10px;
@@ -46,133 +46,133 @@ body {
 }
 
 .red-back {
-    background-color: red;
-    height: 155px;
-    width: 1340px;
-    position: relative;
-    left: 5px;
+  background-color: red;
+  height: 155px;
+  width: 1340px;
+  position: relative;
+  left: 5px;
 }
 
 .title {
-    font-size: 100px;
-    font-family: 'Arvo', serif;
-    font-weight: bolder;
-    text-align: center;
-    margin-bottom: 45px;
-    color: white;
+  font-size: 100px;
+  font-family: 'Arvo', serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 45px;
+  color: white;
 }
 
 .search-icon {
-    position: relative;
-    right: 95px;
-    top: 13px;
+  position: relative;
+  right: 95px;
+  top: 13px;
 }
 
-.title:hover, 
-.sign:hover {
-    color: white;
-}
-
-.sub:hover {
-    color: red;
-}
-
-.sub {
-    height: 34px;
-    margin-left: 300%;
-    position: relative;
-    top: 75px;
-    right: 10px;
-    background-color: white;
-    width: 100%;
-    color: red;
-    font-weight: bold;
-}
-
-.my_date, 
+.my_date,
 .sign {
-    color: white;
-}
-
-.nav-link1 {
-    color: black;
-    padding: 15px;
-    font-weight: bold;
-}
-
-.nav-item {
-    border-left: 1px solid #a8a8a8;
-    position: relative;
-    top: 7px;
-    height: 30px;
-}
-
-.nav-link1:hover {
-    color: red;
-    text-decoration: none;
-}
-
-nav {
-    border-bottom: 2px solid #f4f5f6;
-}
-
-nav::before {
-    position: absolute;
-    right: 0;
-    content: "";
-    width: 78px;
-    border-left: 12px solid white;
-    border-top: 13px solid #f72210;
-}
-
-.navigation {
-    background-color: white;
-    position: relative;
-    width: 100%;
-    bottom: 15px;
-    margin: 0 10px 0 10px;
+  color: white;
 }
 
 .title {
     position: relative;
     left: 280px;
     font-size: 80px;
+  }
+
+.title:hover,
+.sign:hover {
+  color: white;
+}
+
+.sub {
+  height: 34px;
+  margin-left: 300%;
+  position: relative;
+  top: 75px;
+  right: 10px;
+  background-color: white;
+  width: 100%;
+  color: red;
+  font-weight: bold;
+}
+
+.sub:hover {
+  color: red;
+}
+
+.nav-link1 {
+  color: black;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.nav-item {
+  border-left: 1px solid #a8a8a8;
+  position: relative;
+  top: 7px;
+  height: 30px;
+}
+
+.nav-link1:hover {
+  color: red;
+  text-decoration: none;
+}
+
+nav {
+  border-bottom: 2px solid #f4f5f6;
+}
+
+nav::before {
+  position: absolute;
+  right: 0;
+  content: "";
+  width: 78px;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.navigation {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  bottom: 15px;
+  margin: 0 10px 0 10px;
 }
 
 .container {
-    padding-top: 40px;
-    padding-right: 105px;
-    position: relative;
-    right: 85px;
+  padding-top: 40px;
+  padding-right: 105px;
+  position: relative;
+  right: 85px;
 }
 
-.turkey_accused, 
+.turkey_accused,
 .former_white_house,
 .most_americans,
 .congress_man,
 .customer {
-    font-weight: bold;
-    font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.img_fire, 
-.Donald_trump, 
-.congress, 
+.img_fire,
+.Donald_trump,
+.congress,
 .americas_customer_service {
-    width: 377px;
-    height: 265px;
+  width: 377px;
+  height: 265px;
 }
 
 .speech {
-    width: 560px;
-    height: 350px;
+  width: 560px;
+  height: 350px;
 }
 
-.feature, 
-.top_story, 
-.opinions_heading, 
+.feature,
+.top_story,
+.opinions_heading,
 .culture_heading,
-.latest-news, 
+.latest-news,
 .more-heading {
   font-weight: bold;
   color: #a8a8a8;
@@ -182,6 +182,16 @@ nav::before {
   font-weight: bold;
   color: black;
   font-size: 15px;
+}
+
+.charlie,
+.medicine,
+.Beto,
+.fake_trump,
+.Arrested,
+.link_story {
+  position: relative;
+  left: 8px;
 }
 
 .link_story:hover {
@@ -209,15 +219,15 @@ nav::before {
 .author5,
 .author6 {
   color: #585858;
-  font-weight: bold; 
+  font-weight: bold;
   font-size: 15px;
   padding-left: 15px;
   position: relative;
   bottom: 15px;
-  }
+}
 
 .culture {
-  background-color: #f0f0f0; 
+  background-color: #f0f0f0;
   height: 890px;
 }
 
@@ -228,7 +238,7 @@ nav::before {
 }
 
 .visit_image,
-.beer_image, 
+.beer_image,
 .diving_img {
   width: 220px;
   height: 160px;
@@ -239,7 +249,7 @@ nav::before {
   height: 160px;
 }
 
-.link_royal, 
+.link_royal,
 .link_craft {
   background-color: #b0b0b0;
   font-size: 15px;
@@ -258,15 +268,15 @@ nav::before {
   height: 70px;
 }
 
-.link_royal:hover, 
+.link_royal:hover,
 .link_craft:hover {
   background-color: black;
   text-decoration: none;
 }
 
-.revive_pakistan, 
-.worth_travelling, 
-.sports, 
+.revive_pakistan,
+.worth_travelling,
+.sports,
 .hidden-track {
   font-size: 22px;
   font-family: 'Arvo', serif;
@@ -280,11 +290,11 @@ nav::before {
   padding-top: 10px;
 }
 
-.ex-trump, 
-.chicago-img, 
-.school, 
-.bts-memebers, 
-.Amazonian-bird, 
+.ex-trump,
+.chicago-img,
+.school,
+.bts-memebers,
+.Amazonian-bird,
 .aoc-img,
 .warren-img {
   width: 145px;
@@ -295,19 +305,19 @@ nav::before {
   font-size: 13px;
 }
 
-.elizabeth-warren, 
-.challenge-fox, 
-.taking-off, 
-.members, 
-.naacp, 
-.strike, 
+.elizabeth-warren,
+.challenge-fox,
+.taking-off,
+.members,
+.naacp,
+.strike,
 .official-discribes {
   font-size: 13px;
 }
 
 .donald {
   font-size: 15px;
-  }
+}
 
 .president {
   width: 170px;
@@ -328,7 +338,7 @@ nav::before {
   padding-top: 15px;
 }
 
-.everyone-loses-img, 
+.everyone-loses-img,
 .storm-img {
   width: 140px;
   height: 100px;
@@ -339,15 +349,14 @@ nav::before {
   font-weight: bold;
 }
 
-.trade-wars, 
-.dallas-tornado, 
-.dallas-tornado , 
-.defense-minister, 
-.harry, .romney, 
-.helen-mirren, 
-.anti-defamation, 
-.pittsburg, 
-.shooting-plasma, 
+.trade-wars,
+.dallas-tornado ,
+.defense-minister,
+.harry, .romney,
+.helen-mirren,
+.anti-defamation,
+.pittsburg,
+.shooting-plasma,
 .the-politician {
   padding-left: 35px;
 }
@@ -391,95 +400,95 @@ nav::before {
 }
 
 .sign-newsletter:hover {
-    background-color: #b0b0b0;
+  background-color: #b0b0b0;
 }
 
 .pref-link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .pref-link:hover {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .newsletter {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .news-img {
-    width: 35px;
-    height: 35px;
-    position: relative;
-    bottom: 45px;
-    left: 15px;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  bottom: 45px;
+  left: 15px;
 }
 
 .preferences {
-    font-size: 14px;
-    font-weight: bold;
-    padding: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 18px;
 }
 
 .main-container {
-    background-color: white;
+  background-color: white;
 }
 
 .main-header2 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .main-logo {
-    width: 30px;
-    height: 30px;
-    position: relative;
-    left: 523px;
-    top: 27px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 523px;
+  top: 27px;
 }
 
 .my_content {
-    position: relative;
-    bottom: 30px;
+  position: relative;
+  bottom: 30px;
 }
 
-.my-container, 
+.my-container,
 .my_main_container {
-    background-color: white;
-    margin: 0 10px 0 10px;
-    padding-bottom: 5%;
-    height: 5400px;
+  background-color: white;
+  margin: 0 10px 0 10px;
+  padding-bottom: 5%;
+  height: 5400px;
 }
 
 .my_main_container {
-    position: relative;
-    bottom: 30px;
+  position: relative;
+  bottom: 30px;
 }
 
 .my_mag_line {
-    width: 930px;
-    position: relative;
-    left: 330px;
-    top: 30px;
+  width: 930px;
+  position: relative;
+  left: 330px;
+  top: 30px;
 }
 
 .see-features {
-    font-weight: bold;
-    font-size: 18px;
-    position: relative;
-    width: 67%;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  width: 67%;
 }
 
 .pence {
-    width: 68%;
-    position: relative;
-    left: 15px;
+  width: 68%;
+  position: relative;
+  left: 15px;
 }
 
 .header-link {
-    text-decoration-style: none;
+  text-decoration-style: none;
   color: black;
   position: relative;
   left: 55px;
@@ -525,16 +534,16 @@ nav::before {
 }
 
 .my-Mag {
-    position: relative;
-    top: 25px;
+  position: relative;
+  top: 25px;
 }
 
 .n-logo {
-    width: 35px;
-    height: 35px;
-    position: relative;
-    left: 43%;
-    top: 30px;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 43%;
+  top: 30px;
 }
 
 .n-logo2 {
@@ -558,115 +567,116 @@ nav::before {
   width: 140%;
 }
 
-.party-chatter, 
-.recession, 
-.jim, 
-.max, 
+.party-chatter,
+.recession,
+.jim,
+.max,
 .political-endorsements {
   font-weight: bold;
   font-size: 18px;
 }
 
 .feat {
-    width: 77px;
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    position: relative;
-    top: 10px;
+  width: 77px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
 }
 
 .us {
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    width: 60px;
-    position: relative;
-    top: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  position: relative;
+  top: 10px;
 }
 
 .periscope {
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    width: 100px;
-    position: relative;
-    top: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  position: relative;
+  top: 10px;
 }
 
 .maximum-pressure {
-    width: 70%;
-    bottom: 15%;
+  width: 70%;
+  bottom: 15%;
 }
 
 .maximum-img {
-    width: 95%;
+  width: 95%;
 }
 
 .maximum-img1 {
-    width: 145%;
+  width: 145%;
 }
 
 .iran-policy {
-    font-weight: bold;
-    width: 120%;
+  font-weight: bold;
+  width: 120%;
 }
 
 .scope {
-    font-weight: bold;
-    position: relative;
-    top: 10px;
-    background-color: red;
-    color: white;
-    width: 25%;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  background-color: red;
+  color: white;
+  width: 25%;
 }
 
 .analysis-img {
-    width: 100%;
-    height: 43%;
+  width: 100%;
+  height: 43%;
 }
 
 .analysis-img2 {
-    width: 100%;
-    height: 40%;
-    position: relative;
-    bottom: 20px;
+  width: 100%;
+  height: 40%;
+  position: relative;
+  bottom: 20px;
 }
 
 .cosplay {
-    width: 100%;
+  width: 100%;
 }
 
 .nycc {
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 
 .united-states {
-    color: red;
-    font-weight: bold;
-    font-size: 20px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .school-safety {
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .fox-anchor {
-    width: 130px;
-    height: 100px;
-    position: relative;
-    left: 50px;
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 50px;
 }
 
 .donald {
-    font-weight: bold;
+  font-weight: bold;
 }
+
 .in_depth2 {
-    background-color: #e8e8e8;
-    height: 280px;
+  background-color: #e8e8e8;
+  height: 280px;
 }
 
 .daily_briefing {
@@ -683,10 +693,10 @@ nav::before {
   bottom: 35px;
 }
 
-.facebook, 
-.twitter, 
-.instagram, 
-.tumblr, 
+.facebook,
+.twitter,
+.instagram,
+.tumblr,
 .linkedin {
   height: 25px;
   width: 25px;
@@ -711,7 +721,7 @@ nav::before {
   left: 55px;
 }
 
-.foo_list, 
+.foo_list,
 .list_edition {
   display: inline;
 }
@@ -735,39 +745,39 @@ nav::before {
 }
 
 .my_sub {
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    border: 1px solid #e8e8e8;
-    border-radius: 3px;
-    height: 37px;
-    width: 120px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  height: 37px;
+  width: 120px;
 }
 
 .list_edition {
-    position: relative;
-    left: 70%;
-    bottom: 85px;
+  position: relative;
+  left: 70%;
+  bottom: 85px;
 }
 
 .my_list {
-    display: inline;
+  display: inline;
 }
 
 .foo_list {
-    position: relative;
-    left: 50px;
+  position: relative;
+  left: 50px;
 }
 
 .listi_link1 {
-    position: relative;
-    left: 55%;
-    top: 5%;
-    padding: 5px;
+  position: relative;
+  left: 55%;
+  top: 5%;
+  padding: 5px;
 }
 
 .listi_link1:hover {
-    background-color: black;
+  background-color: black;
 }
 
 .listi_link {
@@ -779,90 +789,92 @@ nav::before {
 }
 
 .listi_link:hover {
-    text-decoration: none;
-    color: red;
+  text-decoration: none;
+  color: red;
 }
 
 .chrissy-teigen {
-    width: 110%;
-    height: 265px;
-    padding-right: 18px;
+  width: 110%;
+  height: 265px;
+  padding-right: 18px;
 }
 
 .chrissy1 {
-    height: 281px;
-    width: 110%;
-    position: relative;
-    right: 15px;
+  height: 281px;
+  width: 110%;
+  position: relative;
+  right: 15px;
 }
 
 .sign-btn {
-    background-color: red;
-    color: white;
-    border: 1px solid #e8e8e8;
-    border-radius: 3px;
-    height: 35px;
-    font-weight: bold;
-    width: 95px;
+  background-color: red;
+  color: white;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  height: 35px;
+  font-weight: bold;
+  width: 95px;
 }
 
 .my-search {
-    position: relative;
-    left: 950px;
+  position: relative;
+  left: 950px;
 }
 
-.short-term, 
-.eric-mayor, 
-.sergei, 
-.duke-of-suxxes, 
-.thr-politician, 
-.russian-queen, 
-.anti-defamation, 
+.short-term,
+.eric-mayor,
+.sergei,
+.duke-of-suxxes,
+.thr-politician,
+.russian-queen,
+.anti-defamation,
 .los-alamos {
-    font-size: 14px;
-    padding-left: 35px;
+  font-size: 14px;
+  padding-left: 35px;
 }
 
 
 .my_line1 {
-    width: 325px;
-    position: relative;
-    left: 45px;
+  width: 325px;
+  position: relative;
+  left: 45px;
 }
 
-.shooting-plasma, 
-.pittsburg, 
-.helen-mirren, 
-.romney, 
-.harry, 
-.defense-minister, 
-.dallas-tornado, 
+.shooting-plasma,
+.pittsburg,
+.helen-mirren,
+.romney,
+.harry,
+.defense-minister,
+.dallas-tornado,
 .trade-wars {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-.shooting-plasma, 
-.los-alamos, 
-.anti-defamation, 
-.pittsburg, 
-.russian-queen, 
-.helen-mirren, 
-.the-politician, 
-.romney, 
-.duke-of-suxxes, 
-.harry, 
-.sergei, 
-.defense-minister, 
-.eric-mayor, 
-.dallas-tornado, .short-term, .trade-wars {
-    position: relative;
-    right: 150px;
-    margin: -5px;
+.shooting-plasma,
+.los-alamos,
+.anti-defamation,
+.pittsburg,
+.russian-queen,
+.helen-mirren,
+.the-politician,
+.romney,
+.duke-of-suxxes,
+.harry,
+.sergei,
+.defense-minister,
+.eric-mayor,
+.dallas-tornado,
+.short-term,
+.trade-wars {
+  position: relative;
+  right: 150px;
+  margin: -5px;
 }
 
 .m_line {
-    position: relative;
-    right: 155px;
+  position: relative;
+  right: 155px;
 }
 
 .my_msg3 {
@@ -879,116 +891,107 @@ nav::before {
   color: black;
 }
 
-.kirk, 
-.ryna-img, 
-.peter_sub-container, 
-.reverend-container, 
-.anne-container, 
+.kirk,
+.ryna-img,
+.peter_sub-container,
+.reverend-container,
+.anne-container,
 .former-container {
   display: flex;
   flex-direction: row;
 }
 
-.by_author, 
-.beto-sub, 
-.fake-sub, 
+.by_author,
+.beto-sub,
+.fake-sub,
 .anne_richard {
   width: 140px;
   height: 70px;
 }
 
-.charlie, 
-.medicine, 
-.Beto, 
-.fake_trump, 
-.Arrested, 
-.link_story {
-    position: relative;
-    left: 8px;
-}
-
 .anne_r {
-    width: 110px;
-    height: 70px;
+  width: 110px;
+  height: 70px;
 }
 
 .line1 {
-    position: relative;
-    top: 15px;
+  position: relative;
+  top: 15px;
 }
 
 .line {
-    position: relative;
-    bottom: 35px;
+  position: relative;
+  bottom: 35px;
 }
 
 .line2 {
-    position: relative;
-    top: 155px;
+  position: relative;
+  top: 155px;
 }
 
 .liney {
-    position: relative;
-    bottom: 130px;
+  position: relative;
+  bottom: 130px;
 }
 
 .latest-container {
-    position: relative;
-    top: 10px;
+  position: relative;
+  top: 10px;
 }
 
 .my_rowa {
-    padding-top: 450px;
+  padding-top: 450px;
 }
 
 .anne-container {
 padding-top: 40px;
 }
 
-.reverend-container, 
+.reverend-container,
 .peter_sub-container {
-    padding-top: 10px;
-    display: flex;
+  padding-top: 10px;
+  display: flex;
 }
-.fake-sub, 
+
+.fake-sub,
 .beto-sub {
-    flex: 1;
+  flex: 1;
 }
 
 .former-container {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .Arrested {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .news {
-    padding-right: 25px;
+  padding-right: 25px;
 }
 
 .my_content {
-    padding-top: 55px;
+  padding-top: 55px;
 }
 
 .more-stories-container {
-    padding-left: 13px;
+  padding-left: 13px;
 }
 
 .form-text {
-    border: none;
-    padding-top: 5px;
-    box-sizing: border-box;
+  border: none;
+  padding-top: 5px;
+  box-sizing: border-box;
 }
 
 .president {
-    position: relative;
-    top: 20px;
-    right: 140px;
+  position: relative;
+  top: 20px;
+  right: 140px;
 }
 
 .indepth {
-    position: relative;
-    right: 95px;
-    top: 45px;
+  position: relative;
+  right: 95px;
+  top: 45px;
 }
