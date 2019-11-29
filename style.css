@@ -976,3 +976,146 @@ nav::before {
   right: 95px;
   top: 45px;
 }
+
+.nav2 {
+  display: none;
+}
+
+/******************MEDIA QUERY STARTS HERE*****************/
+@media only screen and (max-width: 665px){
+    html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .nav-items {
+        position: relative;
+        bottom: 55px;
+        right: 120px;
+    }
+
+  body {
+     position: relative;
+     right: 10px;
+     width: 103%;
+  }
+
+  .red-back {
+      height: 55px;
+     
+      position: relative;
+      right: 35px;
+  }
+
+  .title {
+      font-size: 20px;
+      position: relative;
+      left: 100px;
+      top: 55px;
+      
+  }
+
+  .nav {
+      position: relative;
+      top: 5px;
+  }
+
+  .my_content {
+      position: relative;
+      top: 0px;
+  }
+
+  .sign {
+    position: relative;
+    bottom: 65px;
+    right: 300px;
+    font-size: 15px;
+  }
+
+  .sub {
+    position: relative;
+    top: 65px;
+    right: 160px;
+    height: 25px;
+    width: 80px;
+    font-size: 10px;
+  }
+
+  /********************
+  .img_fire, 
+  .Donald_trump, 
+  .congress, 
+  .americas_customer_service {
+      width: 97%;
+      height: 220px;
+  }
+
+  .col1_small{
+      position: relative;
+      bottom: 35px;
+  }*/
+ .col1_small {
+     display: none;
+ }
+
+ .speech {
+    width: 120%;
+    height: 220px;
+ }
+
+ .top {
+     position: relative;
+     right: 65px;
+     bottom: 35px;
+ }
+
+  .former-white {
+     width: 325px;
+     margin: 0 15px 0 3px;
+  }
+
+  .acting_chief {
+      font-size:  13px;
+  }
+
+  .former_white_house {
+      font-size: 17px;
+  }
+
+  .culture {
+      display: none;
+  }
+
+  .more-stories-container {
+     position: relative;
+     right: 60px;
+     width: 10%;
+  }
+
+  .everyone-loses-img, .im_g {
+      float: left;
+      width: 120px;
+  }
+
+  .my_msg3 {
+      position: relative;
+      left: 250px;
+      bottom: 95px;
+  }
+
+  .short-term {
+      font-size: 13px; 
+  }
+
+  .m_line {
+      position: relative;
+      top: 20px;
+      right: 295px;
+      width: 335px;
+  }
+
+  .ups {
+      position: relative;
+      bottom: 85px;
+  }
+}
