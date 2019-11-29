@@ -214,7 +214,7 @@ nav::before {
   padding-left: 15px;
   position: relative;
   bottom: 15px;
-}
+  }
 
 .culture {
   background-color: #f0f0f0; 
@@ -307,7 +307,7 @@ nav::before {
 
 .donald {
   font-size: 15px;
-}
+  }
 
 .president {
   width: 170px;
