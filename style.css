@@ -1,25 +1,25 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: lightgray;
-    overflow-x: hidden;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  overflow-x: hidden;
 }
 
 .my-daily {
-    width: 100%;
+  width: 100%;
 }
 
 .signing-in {
-    position: relative;
-    top: 70px;
-    left: 420px;
+  position: relative;
+  top: 70px;
+  left: 420px;
 }
 
 .sign {
