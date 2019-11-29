@@ -19,7 +19,12 @@ body {
 .signing-in {
   position: relative;
   top: 70px;
-  left: 420px;
+  left: 290px;
+}
+
+.big-navbar-logo {
+  position: relative;
+  right: 50px;
 }
 
 .sign {
@@ -60,6 +65,8 @@ body {
   text-align: center;
   margin-bottom: 45px;
   color: white;
+  position: relative;
+  left: 280px;
 }
 
 .search-icon {
@@ -73,12 +80,6 @@ body {
   color: white;
 }
 
-.title {
-    position: relative;
-    left: 280px;
-    font-size: 80px;
-  }
-
 .title:hover,
 .sign:hover {
   color: white;
@@ -89,7 +90,7 @@ body {
   margin-left: 300%;
   position: relative;
   top: 75px;
-  right: 10px;
+  right: 140px;
   background-color: white;
   width: 100%;
   color: red;
@@ -350,9 +351,10 @@ nav::before {
 }
 
 .trade-wars,
-.dallas-tornado ,
+.dallas-tornado,
 .defense-minister,
-.harry, .romney,
+.harry,
+.romney,
 .helen-mirren,
 .anti-defamation,
 .pittsburg,
@@ -651,7 +653,6 @@ nav::before {
   font-size: 18px;
 }
 
-
 .united-states {
   color: red;
   font-weight: bold;
@@ -726,7 +727,7 @@ nav::before {
   display: inline;
 }
 
-.footer_link, 
+.footer_link,
 .edition_link {
   text-decoration: none;
   text-decoration-style: none;
@@ -782,7 +783,7 @@ nav::before {
 
 .listi_link {
   font-size: 40px;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: red;
   text-decoration-style: none;
@@ -832,7 +833,6 @@ nav::before {
   font-size: 14px;
   padding-left: 35px;
 }
-
 
 .my_line1 {
   width: 325px;
@@ -944,7 +944,7 @@ nav::before {
 }
 
 .anne-container {
-padding-top: 40px;
+  padding-top: 40px;
 }
 
 .reverend-container,
