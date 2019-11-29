@@ -248,6 +248,7 @@ nav::before {
 .cloud_hills {
   width: 220px;
   height: 160px;
+  padding-top: 10px;
 }
 
 .link_royal,
@@ -287,10 +288,6 @@ nav::before {
   padding-top: 26px;
 }
 
-.cloud_hills {
-  padding-top: 10px;
-}
-
 .ex-trump,
 .chicago-img,
 .school,
@@ -318,11 +315,15 @@ nav::before {
 
 .donald {
   font-size: 15px;
+  font-weight: bold;
 }
 
 .president {
   width: 170px;
   height: 230px;
+  position: relative;
+  top: 20px;
+  right: 140px;
 }
 
 .link-official {
@@ -388,6 +389,7 @@ nav::before {
   left: 45px;
   top: 10px;
   font-size: 15px;
+  padding-left: 10px;
 }
 
 .sign-newsletter {
@@ -413,10 +415,6 @@ nav::before {
 .pref-link:hover {
   text-decoration: none;
   color: black;
-}
-
-.newsletter {
-  padding-left: 10px;
 }
 
 .news-img {
@@ -454,6 +452,7 @@ nav::before {
 .my_content {
   position: relative;
   bottom: 30px;
+  padding-top: 55px;
 }
 
 .my-container,
@@ -669,10 +668,6 @@ nav::before {
   height: 100px;
   position: relative;
   left: 50px;
-}
-
-.donald {
-  font-weight: bold;
 }
 
 .in_depth2 {
@@ -962,16 +957,8 @@ nav::before {
   padding-bottom: 20px;
 }
 
-.Arrested {
-  font-size: 16px;
-}
-
 .news {
   padding-right: 25px;
-}
-
-.my_content {
-  padding-top: 55px;
 }
 
 .more-stories-container {
@@ -982,12 +969,6 @@ nav::before {
   border: none;
   padding-top: 5px;
   box-sizing: border-box;
-}
-
-.president {
-  position: relative;
-  top: 20px;
-  right: 140px;
 }
 
 .indepth {
