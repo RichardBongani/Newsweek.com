@@ -981,7 +981,22 @@ nav::before {
   display: none;
 }
 
-/******************MEDIA QUERY STARTS HERE*****************/
+.im_g {
+  float: left;
+}
+
+.new_one {
+  position: relative;
+  left: 85px;
+}
+
+.los-alamos {
+  width: 115%;
+}
+
+
+
+/********3*********MEDIA QUERY STARTS HERE*****************/
 @media only screen and (max-width: 665px){
     html {
         width: 100%;
@@ -1002,7 +1017,6 @@ nav::before {
 
   .red-back {
       height: 55px;
-     
       position: relative;
       right: 35px;
   }
@@ -1082,25 +1096,14 @@ nav::before {
       font-size: 17px;
   }
 
-  .culture {
-      display: none;
-  }
-
   .more-stories-container {
      position: relative;
      right: 60px;
      width: 10%;
   }
 
-  .everyone-loses-img, .im_g {
+  .everyone-loses-img {
       float: left;
-      width: 120px;
-  }
-
-  .my_msg3 {
-      position: relative;
-      left: 250px;
-      bottom: 95px;
   }
 
   .short-term {
@@ -1114,8 +1117,17 @@ nav::before {
       width: 335px;
   }
 
-  .ups {
-      position: relative;
-      bottom: 85px;
+  .everyone-loses-img {
+      float: left;
   }
+
+  .new_one {
+    position: relative;
+    left: 65px;
+  }
+
+  .new_one {
+    width: 90%;
+  }
+
 }
