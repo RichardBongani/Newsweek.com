@@ -1010,9 +1010,9 @@ nav::before {
     }
 
   body {
-     position: relative;
-     right: 10px;
-     width: 103%;
+    position: relative;
+    right: 10px;
+    width: 103%;
   }
 
   .red-back {
@@ -1068,24 +1068,24 @@ nav::before {
       position: relative;
       bottom: 35px;
   }*/
- .col1_small {
+ /* .col1_small {
      display: none;
- }
+ } */
 
- .speech {
+  .speech {
     width: 120%;
     height: 220px;
- }
+}
 
- .top {
-     position: relative;
-     right: 65px;
-     bottom: 35px;
- }
+  .top {
+    position: relative;
+    right: 65px;
+    bottom: 35px;
+}
 
   .former-white {
-     width: 325px;
-     margin: 0 15px 0 3px;
+    width: 325px;
+    margin: 0 15px 0 3px;
   }
 
   .acting_chief {
@@ -1097,9 +1097,10 @@ nav::before {
   }
 
   .more-stories-container {
-     position: relative;
-     right: 60px;
-     width: 10%;
+    position: relative;
+    right: 60px;
+    bottom: 910px;
+    width: 10%;
   }
 
   .everyone-loses-img {
@@ -1129,5 +1130,128 @@ nav::before {
   .new_one {
     width: 90%;
   }
+
+  .culture {
+    position: relative;
+    top:1600px;
+    right: 55px;
+    z-index: 1;
+    width: 110%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .small_img {
+    width: 100%;
+  }
+
+  .col1_small {
+    order: 2;
+    position: relative;
+    bottom: 1520px;
+    width: 100%;
+  }
+
+.col1_small p {
+  width: 80%;
+  position: relative;
+  left: 20px;
+}
+
+.me {
+  position: relative;
+  top: 2500px;
+  width: 100%;
+}
+
+
+
+.feat_img {
+  width: 88%;
+  position: relative;
+  left:  15px;
+  height: 230px;
+}
+
+.feature {
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+
+.my_words {
+  font-size: 13px;
+}
+
+.my_main_container {
+  position: relative;
+  top: 950px;
+}
+
+body{
+  background-color: white;
+}
+
+.ex-trump {
+  float: left;
+}
+
+.magazine-title {
+  padding-top: 35px;
+}
+
+.pence {
+  position: relative;
+  left: 55px; 
+}
+
+.cover1 {
+  position: relative;
+  left: 10px;
+}
+
+.cover-us {
+  width: 305px;
+  height: 210px;
+}
+
+.cosplay, .pol_img {
+  width: 280px;
+  height: 210px
+}
+
+.chrissy-teigen {
+  width: 300px;
+  height: 210px
+}
+
+.my_fox {
+  position: relative;
+  right: 50px;
+}
+
+.cover_pol {
+  position: relative;
+  top: 45px;
+}
+
+.feat_new {
+  position: relative;
+  right: 15px;
+}
+
+.coveted-dem {
+  font-size: 12px;
+}
+
+.my_footer {
+  position: relative;
+  top: 4500px;
+}
+
+/* .my-container {
+  position: relative;
+  left: 35px;
+} */ 
 
 }
