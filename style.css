@@ -1142,9 +1142,25 @@ nav::before {
   right: 50px;
 }
 
+.sent_d {
+  width: 160%;
+}
+
+.car_cont,
+.ball,
+.depth_cont {
+  position: relative;
+  top: 80px;
+}
+
+.my_day {
+  position: relative;
+  top: 580px;
+}
+
 .main_sharks {
   position: relative;
-  
+  top: 45px;
 }
 
 .main_rus {
@@ -1205,6 +1221,18 @@ nav::before {
     position: relative;
     bottom: 1150px;
     width: 100%;
+  }
+
+  .president {
+    position: relative;
+    left: 80px;
+    bottom: 690px;
+    z-index: 1;
+  }
+
+  .indepth{
+    position: relative;
+    left: 50px;
   }
 
   .my_edit {
@@ -1280,9 +1308,23 @@ body{
   height: 210px
 }
 
+.move {
+  position: relative;
+  right: 20px;
+}
+
 .chrissy-teigen {
-  width: 300px;
-  height: 210px
+  width: 308px;
+  height: 210px;
+}
+
+.awar_img {
+  width: 290px;
+  height: 210px;
+}
+
+.img_conte {
+  margin: 70px auto;
 }
 
 .my_fox {
@@ -1304,9 +1346,28 @@ body{
   font-size: 12px;
 }
 
+.chrissy1 {
+  height: 150px;
+  width: 100%;
+}
+
+.dai_head {
+  text-align: center;
+}
+
+.sign-btn{
+  position: relative;
+  left: 80px;
+}
+
+.news_l {
+  font-weight: bold;
+  color: red;
+}
+
 .my_footer {
   position: relative;
-  top: 8500px;
+  top: 10500px;
 }
 
 /* .my-container {
