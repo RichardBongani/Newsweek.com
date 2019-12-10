@@ -140,6 +140,10 @@ nav::before {
   margin: 0 10px 0 10px;
 }
 
+.divider {
+  margin: 0 0 25px 0;
+}
+
 .container {
   padding-top: 40px;
   padding-right: 105px;
@@ -520,7 +524,7 @@ nav::before {
 
 .cover-us {
   width: 100%;
-  height: 50%;
+  height: 55%;
 }
 
 .cover1 {
@@ -568,6 +572,11 @@ nav::before {
   width: 140%;
 }
 
+.cov {
+  position: relative;
+  top: 37px;
+}
+
 .party-chatter,
 .recession,
 .jim,
@@ -575,6 +584,18 @@ nav::before {
 .political-endorsements {
   font-weight: bold;
   font-size: 18px;
+}
+
+.max {
+  width: 90%;
+}
+
+.new_max {
+  width: 70%;
+}
+
+.my_row {
+  margin: 0 0 35px 0;
 }
 
 .feat {
@@ -607,14 +628,6 @@ nav::before {
 .maximum-pressure {
   width: 70%;
   bottom: 15%;
-}
-
-.maximum-img {
-  width: 95%;
-}
-
-.maximum-img1 {
-  width: 145%;
 }
 
 .iran-policy {
@@ -869,7 +882,13 @@ nav::before {
 
 .m_line {
   position: relative;
-  right: 155px;
+  right: 75px;
+  top: 40px;
+}
+
+.main_line {
+  position: relative;
+  bottom: 5px;
 }
 
 .my_msg3 {
@@ -990,8 +1009,8 @@ nav::before {
   left: 85px;
 }
 
-.los-alamos {
-  width: 115%;
+.layout {
+  width: 100%;
 }
 
 
@@ -1092,15 +1111,52 @@ nav::before {
       font-size:  13px;
   }
 
-  .former_white_house {
-      font-size: 17px;
+.former_white_house {
+  font-size: 17px;
   }
 
-  .more-stories-container {
-    position: relative;
-    right: 60px;
-    bottom: 910px;
-    width: 10%;
+.donald {
+  width: 130%;
+  padding-left: 55px;
+  }
+
+.donald1 {
+  width: 180%;
+  padding-left: 55px;
+  }
+
+.russia {
+  position: relative;
+  right: 35px;
+  top: 60px;
+}
+
+.main_pol {
+  position: relative;
+  top: 45px;
+  left: 15px;
+}
+
+.pol_cont {
+  position: relative;
+  right: 50px;
+}
+
+.main_sharks {
+  position: relative;
+  
+}
+
+.main_rus {
+  position: relative;
+  left: 55px;
+}
+
+.more-stories-container {
+  position: relative;
+  right: 60px;
+  bottom: 910px;
+  width: 10%;
   }
 
   .everyone-loses-img {
@@ -1114,7 +1170,6 @@ nav::before {
   .m_line {
       position: relative;
       top: 20px;
-      right: 295px;
       width: 335px;
   }
 
@@ -1133,7 +1188,7 @@ nav::before {
 
   .culture {
     position: relative;
-    top:1600px;
+    top:2000px;
     right: 55px;
     z-index: 1;
     width: 110%;
@@ -1148,8 +1203,13 @@ nav::before {
   .col1_small {
     order: 2;
     position: relative;
-    bottom: 1520px;
+    bottom: 1150px;
     width: 100%;
+  }
+
+  .my_edit {
+    position: relative;
+    top: 50px;
   }
 
 .col1_small p {
@@ -1192,9 +1252,9 @@ body{
   background-color: white;
 }
 
-.ex-trump {
+/* .ex-trump {
   float: left;
-}
+} */
 
 .magazine-title {
   padding-top: 35px;
@@ -1246,7 +1306,7 @@ body{
 
 .my_footer {
   position: relative;
-  top: 4500px;
+  top: 8500px;
 }
 
 /* .my-container {
