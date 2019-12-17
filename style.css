@@ -325,9 +325,16 @@ nav::before {
 .president {
   width: 170px;
   height: 230px;
+}
+
+.img1_container {
+  padding-left: 50px;
+}
+
+.mig12 {
   position: relative;
-  top: 20px;
-  right: 140px;
+  bottom: 180px;
+  left: 25px;
 }
 
 .link-official {
@@ -459,12 +466,11 @@ nav::before {
   padding-top: 55px;
 }
 
-.my-container,
-.my_main_container {
+.my-container {
   background-color: white;
   margin: 0 10px 0 10px;
   padding-bottom: 5%;
-  height: 5400px;
+  height: 850vh;
 }
 
 .my_main_container {
@@ -690,7 +696,7 @@ nav::before {
 
 .daily_briefing {
   border: 1px solid #e8e8e8;
-  height: 283px;
+  height: 44vh;
   position: relative;
   left: 15px;
 }
@@ -809,10 +815,11 @@ nav::before {
 }
 
 .chrissy1 {
-  height: 281px;
-  width: 110%;
+  height: 44vh;
+  width: 13vw;
   position: relative;
   right: 15px;
+  bottom: 28px;
 }
 
 .sign-btn {
@@ -992,8 +999,12 @@ nav::before {
 
 .indepth {
   position: relative;
-  right: 95px;
-  top: 45px;
+  bottom: 230px;
+  left: 190px;
+}
+
+.all1 {
+  width: 35vw;
 }
 
 .nav2 {
@@ -1013,6 +1024,13 @@ nav::before {
   width: 100%;
 }
 
+.news_l {
+  font-weight: bold;
+  color: red;
+  position: relative;
+  bottom: 20px;
+}
+
 
 
 /********3*********MEDIA QUERY STARTS HERE*****************/
@@ -1022,11 +1040,15 @@ nav::before {
         overflow-x: hidden;
     }
 
-    .nav-items {
-        position: relative;
-        bottom: 55px;
-        right: 120px;
-    }
+.nav-items {
+  position: relative;
+  bottom: 55px;
+  right: 120px;
+}
+
+.in_depth2 {
+  height: 80vh;
+}
 
   body {
     position: relative;
@@ -1153,11 +1175,6 @@ nav::before {
   top: 80px;
 }
 
-.my_day {
-  position: relative;
-  top: 580px;
-}
-
 .main_sharks {
   position: relative;
   top: 45px;
@@ -1225,14 +1242,21 @@ nav::before {
 
   .president {
     position: relative;
-    left: 80px;
-    bottom: 690px;
-    z-index: 1;
+    left: 30px;
+    bottom: 30px;
+    z-index: 2;
   }
 
   .indepth{
     position: relative;
-    left: 50px;
+    left: 10px;
+  }
+
+  .all1 {
+    width: 65vw;
+    position: relative;
+    top: 200px;
+    right: 50px;
   }
 
   .my_edit {
@@ -1363,8 +1387,18 @@ body{
 }
 
 .chrissy1 {
-  height: 150px;
-  width: 100%;
+  height: 28vh;
+  width: 80vw;
+  position: relative;
+  right: 15px;
+}
+
+.daily_briefing {
+  border: 1px solid #e8e8e8;
+  height: 65vh;
+  width: 80vw;
+  position: relative;
+  top: 80px;
 }
 
 .dai_head {
@@ -1379,6 +1413,8 @@ body{
 .news_l {
   font-weight: bold;
   color: red;
+  position: relative;
+  bottom: 30px;
 }
 
 .my_footer {
