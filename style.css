@@ -1252,8 +1252,6 @@ nav::before {
   width: 100%;
 }
 
-
-
 .feat_img {
   width: 88%;
   position: relative;
@@ -1283,6 +1281,24 @@ body{
 /* .ex-trump {
   float: left;
 } */
+
+.nav-list {
+  position: relative;
+  right: 65px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.my_social {
+  position: relative;
+  right: 110px;
+  top: 15px;
+}
+
+.media_container {
+  position: relative;
+  right: 25px;
+}
 
 .magazine-title {
   padding-top: 35px;
