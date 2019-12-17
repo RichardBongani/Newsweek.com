@@ -1026,9 +1026,27 @@ nav::before {
 
 .news_l {
   font-weight: bold;
+  font-size: 15px;
   color: red;
   position: relative;
   bottom: 20px;
+  right: 10px;
+}
+
+.lin {
+  padding-top: 15px;
+}
+
+.foot_new  {
+  position: relative;
+  right: 20em;
+  top: 45px;
+}
+
+.edition {
+  position: relative;
+  right: 11em;
+  top: 80px;
 }
 
 
@@ -1313,15 +1331,10 @@ body{
   margin-right: 40px;
 }
 
-.my_social {
-  position: relative;
-  right: 110px;
-  top: 15px;
-}
-
 .media_container {
   position: relative;
   right: 25px;
+
 }
 
 .magazine-title {
@@ -1419,7 +1432,31 @@ body{
 
 .my_footer {
   position: relative;
-  top: 10500px;
+  top: 620em;
+  right: 1em;
+  width: 210%;
+}
+
+.edition {
+  position: relative;
+  right: 160px;
+  top: 90px;
+  width: 100%;
+}
+
+.foot_new {
+  position: relative;
+  top: 60px;
+  right: 250px;
+}
+
+.nav-list {
+  width: 70%;
+}
+
+.footer_nav {
+  position: relative;
+  left: 25px;
 }
 
 /* .my-container {
