@@ -9,7 +9,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: lightgray;
+  width: 100%;
+  height: 100%;
   overflow-x: hidden;
+}
+
+main {
+  background-color: white;
+  width: 100%;
 }
 
 .my-daily {
@@ -45,7 +52,8 @@ body {
 
 .main-container,
 .my_content {
-  background-color: white;
+
+  width: 100%;
   margin: 0 10px 0 10px;
   background-repeat: no-repeat;
 }
@@ -53,9 +61,9 @@ body {
 .red-back {
   background-color: red;
   height: 155px;
-  width: 1340px;
+  width: 100%;
   position: relative;
-  left: 5px;
+  left: 10px;
 }
 
 .title {
@@ -164,13 +172,13 @@ nav::before {
 .Donald_trump,
 .congress,
 .americas_customer_service {
-  width: 377px;
-  height: 265px;
+  width: 27vw;
+  height: 38vh;
 }
 
 .speech {
-  width: 560px;
-  height: 350px;
+  width: 39vw;
+  height: 45vh;
 }
 
 .feature,
@@ -245,13 +253,13 @@ nav::before {
 .visit_image,
 .beer_image,
 .diving_img {
-  width: 220px;
-  height: 160px;
+  width: 17vw;
+  height: 25vh;
 }
 
 .cloud_hills {
-  width: 220px;
-  height: 160px;
+  width: 17vw;
+  height: 26vh;
   padding-top: 10px;
 }
 
@@ -465,13 +473,12 @@ nav::before {
   bottom: 30px;
   padding-top: 55px;
 }
-
+/* 
 .my-container {
-  background-color: white;
   margin: 0 10px 0 10px;
   padding-bottom: 5%;
-  height: 850vh;
-}
+
+} */
 
 .my_main_container {
   position: relative;
@@ -701,12 +708,12 @@ nav::before {
   left: 15px;
 }
 
-.my_footer {
+/* .my_footer {
   background-color: white;
   height: 250px;
   position: relative;
   bottom: 35px;
-}
+} */
 
 .facebook,
 .twitter,
@@ -1331,12 +1338,6 @@ body{
   margin-right: 40px;
 }
 
-.media_container {
-  position: relative;
-  right: 25px;
-
-}
-
 .magazine-title {
   padding-top: 35px;
 }
@@ -1459,9 +1460,21 @@ body{
   left: 25px;
 }
 
+.depth {
+  position: relative;
+  right: 15px;
+}
+
 /* .my-container {
   position: relative;
   left: 35px;
 } */ 
 
 }
+
+@media only screen and (max-width: 768px){
+  .my_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+} 
