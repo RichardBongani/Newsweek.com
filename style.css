@@ -1044,395 +1044,395 @@ nav::before {
 }
 
 @media only screen and (max-width: 665px){
-html {
-  width: 100%;
-  overflow-x: hidden;
-}
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
 
-.nav-items {
-  position: relative;
-  bottom: 55px;
-  right: 120px;
-}
+  .nav-items {
+    position: relative;
+    bottom: 55px;
+    right: 120px;
+  }
 
-.in_depth2 {
-  height: 80vh;
-}
+  .in_depth2 {
+    height: 80vh;
+  }
 
-body {
-  position: relative;
-  right: 10px;
-  width: 103%;
-}
+  body {
+    position: relative;
+    right: 10px;
+    width: 103%;
+  }
 
-.red-back {
-  height: 55px;
-  position: relative;
-  right: 35px;
-}
+  .red-back {
+    height: 55px;
+    position: relative;
+    right: 35px;
+  }
 
-.title {
-  font-size: 20px;
-  position: relative;
-  left: 100px;
-  top: 55px;
-}
+  .title {
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    top: 55px;
+  }
 
-.nav {
+  .nav {
   position: relative;
   top: 5px;
-}
+  }
 
-.my_content {
-  position: relative;
-  top: 0px;
-}
+  .my_content {
+    position: relative;
+    top: 0px;
+  }
 
-.sign {
-  position: relative;
-  bottom: 65px;
-  right: 300px;
-  font-size: 15px;
-}
+  .sign {
+    position: relative;
+    bottom: 65px;
+    right: 300px;
+    font-size: 15px;
+  }
 
-.sub {
-  position: relative;
-  top: 65px;
-  right: 160px;
-  height: 25px;
-  width: 80px;
-  font-size: 10px;
-}
+  .sub {
+    position: relative;
+    top: 65px;
+    right: 160px;
+    height: 25px;
+    width: 80px;
+    font-size: 10px;
+  }
 
-.speech {
-  width: 120%;
-  height: 220px;
-}
+  .speech {
+    width: 120%;
+    height: 220px;
+  }
 
-.top {
-  position: relative;
-  right: 65px;
-  bottom: 35px;
-}
+  .top {
+    position: relative;
+    right: 65px;
+    bottom: 35px;
+  }
 
-.former-white {
-  width: 325px;
-  margin: 0 15px 0 3px;
-}
+  .former-white {
+    width: 325px;
+    margin: 0 15px 0 3px;
+  }
 
-.acting_chief {
-  font-size:  13px;
-}
+  .acting_chief {
+    font-size:  13px;
+  }
 
-.former_white_house {
-  font-size: 17px;
-}
+  .former_white_house {
+    font-size: 17px;
+  }
 
-.donald {
-  width: 130%;
-  padding-left: 55px;
-}
+  .donald {
+    width: 130%;
+    padding-left: 55px;
+  }
 
-.donald1 {
-  width: 180%;
-  padding-left: 55px;
-}
+  .donald1 {
+    width: 180%;
+    padding-left: 55px;
+  }
 
-.russia {
-  position: relative;
-  right: 35px;
-  top: 60px;
-}
+  .russia {
+    position: relative;
+    right: 35px;
+    top: 60px;
+  }
 
-.main_pol {
-  position: relative;
-  top: 45px;
-  left: 15px;
-}
+  .main_pol {
+    position: relative;
+    top: 45px;
+    left: 15px;
+  }
 
-.pol_cont {
-  position: relative;
-  right: 50px;
-}
+  .pol_cont {
+    position: relative;
+    right: 50px;
+  }
 
-.sent_d {
-  width: 160%;
-}
+  .sent_d {
+    width: 160%;
+  }
 
-.car_cont,
-.ball,
-.depth_cont {
-  position: relative;
-  top: 80px;
-}
+  .car_cont,
+  .ball,
+  .depth_cont {
+    position: relative;
+    top: 80px;
+  }
 
-.main_sharks {
-  position: relative;
-  top: 45px;
-}
+  .main_sharks {
+    position: relative;
+    top: 45px;
+  }
 
-.main_rus {
-  position: relative;
-  left: 55px;
-}
+  .main_rus {
+    position: relative;
+    left: 55px;
+  }
 
-.more-stories-container {
-  position: relative;
-  right: 60px;
-  bottom: 910px;
-  width: 10%;
-}
+  .more-stories-container {
+    position: relative;
+    right: 60px;
+    bottom: 910px;
+    width: 10%;
+  }
 
   .everyone-loses-img {
-  float: left;
-}
+    float: left;
+  }
 
   .short-term {
-  font-size: 13px; 
-}
+    font-size: 13px; 
+  }
 
-.m_line {
-  position: relative;
-  top: 20px;
-  width: 335px;
-}
+  .m_line {
+    position: relative;
+    top: 20px;
+    width: 335px;
+  }
 
-.everyone-loses-img {
-  float: left;
-}
+  .everyone-loses-img {
+    float: left;
+  }
 
-.new_one {
-  position: relative;
-  left: 65px;
-}
+  .new_one {
+    position: relative;
+    left: 65px;
+  }
 
-.new_one {
-  width: 90%;
-}
+  .new_one {
+    width: 90%;
+  }
 
-.culture {
-  position: relative;
-  top:2000px;
-  right: 55px;
-  z-index: 1;
-  width: 110%;
-  margin-right: auto;
-  margin-left: auto;
-}
+  .culture {
+    position: relative;
+    top:2000px;
+    right: 55px;
+    z-index: 1;
+    width: 110%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-.small_img {
-  width: 100%;
-}
+  .small_img {
+    width: 100%;
+  }
 
-.col1_small {
-  order: 2;
-  position: relative;
-  bottom: 1150px;
-  width: 100%;
-}
+  .col1_small {
+    order: 2;
+    position: relative;
+    bottom: 1150px;
+    width: 100%;
+  }
 
-.president {
-  position: relative;
-  left: 30px;
-  bottom: 30px;
-  z-index: 2;
-}
+  .president {
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+    z-index: 2;
+  }
 
-.indepth{
-  position: relative;
-  left: 10px;
-}
+  .indepth{
+    position: relative;
+    left: 10px;
+  }
 
-.all1 {
-  width: 65vw;
-  position: relative;
-  top: 200px;
-  right: 50px;
-}
+  .all1 {
+    width: 65vw;
+    position: relative;
+    top: 200px;
+    right: 50px;
+  }
 
-.my_edit {
-  position: relative;
-  top: 50px;
-}
+  .my_edit {
+    position: relative;
+    top: 50px;
+  }
 
-.col1_small p {
-  width: 80%;
-  position: relative;
-  left: 20px;
-}
+  .col1_small p {
+    width: 80%;
+    position: relative;
+    left: 20px;
+  }
 
-.me {
-  position: relative;
-  top: 2500px;
-  width: 100%;
-}
+  .me {
+    position: relative;
+    top: 2500px;
+    width: 100%;
+  }
 
-.feat_img {
-  width: 88%;
-  position: relative;
-  left:  15px;
-  height: 230px;
-}
+  .feat_img {
+    width: 88%;
+    position: relative;
+    left:  15px;
+    height: 230px;
+  }
 
-.feature {
-  position: relative;
-  top: 10px;
-  left: 15px;
-}
+  .feature {
+    position: relative;
+    top: 10px;
+    left: 15px;
+  }
 
-.my_words {
-  font-size: 13px;
-}
+  .my_words {
+    font-size: 13px;
+  }
 
-.my_main_container {
-  position: relative;
-  top: 950px;
-}
+  .my_main_container {
+    position: relative;
+    top: 950px;
+  }
 
-body{
-  background-color: white;
-}
+  body{
+    background-color: white;
+  }
 
-.nav-list {
-  position: relative;
-  right: 65px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
+  .nav-list {
+    position: relative;
+    right: 65px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 
-.magazine-title {
-  padding-top: 35px;
-}
+  .magazine-title {
+    padding-top: 35px;
+  }
 
-.pence {
-  position: relative;
-  left: 55px; 
-}
+  .pence {
+    position: relative;
+    left: 55px; 
+  }
 
-.cover1 {
-  position: relative;
-  left: 10px;
-}
+  .cover1 {
+    position: relative;
+    left: 10px;
+  }
 
-.cover-us {
-  width: 305px;
-  height: 210px;
-}
+  .cover-us {
+    width: 305px;
+    height: 210px;
+  }
 
-.cosplay, .pol_img {
-  width: 280px;
-  height: 210px
-}
+  .cosplay, .pol_img {
+    width: 280px;
+    height: 210px
+  }
 
-.move {
-  position: relative;
-  right: 20px;
-}
+  .move {
+    position: relative;
+    right: 20px;
+  }
 
-.chrissy-teigen {
-  width: 308px;
-  height: 210px;
-}
+  .chrissy-teigen {
+    width: 308px;
+    height: 210px;
+  }
 
-.awar_img {
-  width: 290px;
-  height: 210px;
-}
+  .awar_img {
+    width: 290px;
+    height: 210px;
+  }
 
-.img_conte {
-  margin: 70px auto;
-}
+  .img_conte {
+    margin: 70px auto;
+  }
 
-.my_fox {
-  position: relative;
-  right: 50px;
-}
+  .my_fox {
+    position: relative;
+    right: 50px;
+  }
 
-.cover_pol {
-  position: relative;
-  top: 45px;
-}
+  .cover_pol {
+    position: relative;
+    top: 45px;
+  }
 
-.feat_new {
-  position: relative;
-  right: 15px;
-}
+  .feat_new {
+    position: relative;
+    right: 15px;
+  }
 
-.coveted-dem {
-  font-size: 12px;
-}
+  .coveted-dem {
+    font-size: 12px;
+  }
 
-.chrissy1 {
-  height: 28vh;
-  width: 80vw;
-  position: relative;
-  right: 15px;
-}
+  .chrissy1 {
+    height: 28vh;
+    width: 80vw;
+    position: relative;
+    right: 15px;
+  }
 
-.daily_briefing {
-  border: 1px solid #e8e8e8;
-  height: 65vh;
-  width: 80vw;
-  position: relative;
-  top: 80px;
-}
+  .daily_briefing {
+    border: 1px solid #e8e8e8;
+    height: 65vh;
+    width: 80vw;
+    position: relative;
+    top: 80px;
+  }
 
-.dai_head {
-  text-align: center;
-}
+  .dai_head {
+    text-align: center;
+  }
 
-.sign-btn{
-  position: relative;
-  left: 80px;
-}
+  .sign-btn{
+    position: relative;
+    left: 80px;
+  }
 
-.news_l {
-  font-weight: bold;
-  color: red;
-  position: relative;
-  bottom: 30px;
-}
+  .news_l {
+    font-weight: bold;
+    color: red;
+    position: relative;
+    bottom: 30px;
+  }
 
-.my_footer {
-  position: relative;
-  top: 620em;
-  right: 1em;
-  width: 210%;
-}
+  .my_footer {
+    position: relative;
+    top: 620em;
+    right: 1em;
+    width: 210%;
+  }
 
-.edition {
-  position: relative;
-  right: 160px;
-  top: 90px;
-  width: 100%;
-}
+  .edition {
+    position: relative;
+    right: 160px;
+    top: 90px;
+    width: 100%;
+  }
 
-.foot_new {
-  position: relative;
-  top: 60px;
-  right: 250px;
-}
+  .foot_new {
+    position: relative;
+    top: 60px;
+    right: 250px;
+  }
 
-.nav-list {
-  width: 70%;
-}
+  .nav-list {
+    width: 70%;
+  }
 
-.footer_nav {
-  position: relative;
-  left: 25px;
-}
+  .footer_nav {
+    position: relative;
+    left: 25px;
+  }
 
-.depth {
-  position: relative;
-  right: 15px;
-}
+  .depth {
+    position: relative;
+    right: 15px;
+  }
 }
 
 @media only screen and (max-width: 768px){
-.my_main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+  .my_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
   .pi {
     width: 450%;
