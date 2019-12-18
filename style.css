@@ -52,7 +52,6 @@ main {
 
 .main-container,
 .my_content {
-
   width: 100%;
   margin: 0 10px 0 10px;
   background-repeat: no-repeat;
@@ -1031,7 +1030,7 @@ nav::before {
   padding-top: 15px;
 }
 
-.foot_new  {
+.foot_new {
   position: relative;
   right: 20em;
   top: 45px;
@@ -1044,6 +1043,7 @@ nav::before {
 }
 
 @media only screen and (max-width: 665px){
+
   html {
     width: 100%;
     overflow-x: hidden;
@@ -1079,13 +1079,8 @@ nav::before {
   }
 
   .nav {
-  position: relative;
-  top: 5px;
-  }
-
-  .my_content {
     position: relative;
-    top: 0px;
+    top: 5px;
   }
 
   .sign {
@@ -1188,7 +1183,7 @@ nav::before {
   }
 
   .short-term {
-    font-size: 13px; 
+    font-size: 13px;
   }
 
   .m_line {
@@ -1197,16 +1192,9 @@ nav::before {
     width: 335px;
   }
 
-  .everyone-loses-img {
-    float: left;
-  }
-
   .new_one {
     position: relative;
     left: 65px;
-  }
-
-  .new_one {
     width: 90%;
   }
 
@@ -1223,7 +1211,7 @@ nav::before {
   .small_img {
     width: 100%;
   }
-
+  
   .col1_small {
     order: 2;
     position: relative;
@@ -1238,7 +1226,7 @@ nav::before {
     z-index: 2;
   }
 
-  .indepth{
+  .indepth {
     position: relative;
     left: 10px;
   }
@@ -1249,7 +1237,7 @@ nav::before {
     top: 200px;
     right: 50px;
   }
-
+  
   .my_edit {
     position: relative;
     top: 50px;
@@ -1283,7 +1271,7 @@ nav::before {
   .my_words {
     font-size: 13px;
   }
-
+  
   .my_main_container {
     position: relative;
     top: 950px;
@@ -1298,8 +1286,9 @@ nav::before {
     right: 65px;
     margin-left: 40px;
     margin-right: 40px;
+    width: 70%;
   }
-
+  
   .magazine-title {
     padding-top: 35px;
   }
@@ -1313,27 +1302,28 @@ nav::before {
     position: relative;
     left: 10px;
   }
-
+  
   .cover-us {
     width: 305px;
     height: 210px;
   }
-
-  .cosplay, .pol_img {
+  
+  .cosplay,
+  .pol_img {
     width: 280px;
-    height: 210px
+    height: 210px;
   }
-
+  
   .move {
     position: relative;
     right: 20px;
   }
-
+  
   .chrissy-teigen {
     width: 308px;
     height: 210px;
   }
-
+  
   .awar_img {
     width: 290px;
     height: 210px;
@@ -1381,7 +1371,7 @@ nav::before {
     text-align: center;
   }
 
-  .sign-btn{
+  .sign-btn {
     position: relative;
     left: 80px;
   }
@@ -1392,7 +1382,7 @@ nav::before {
     position: relative;
     bottom: 30px;
   }
-
+  
   .my_footer {
     position: relative;
     top: 620em;
@@ -1411,10 +1401,6 @@ nav::before {
     position: relative;
     top: 60px;
     right: 250px;
-  }
-
-  .nav-list {
-    width: 70%;
   }
 
   .footer_nav {
