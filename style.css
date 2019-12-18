@@ -1434,7 +1434,7 @@ body{
   grid-template-columns: 1fr 1fr;
 }
 
-.pi {
-  width: 450%;
+  .pi {
+    width: 450%;
+  }
 }
-} 
