@@ -1042,8 +1042,7 @@ nav::before {
   top: 80px;
 }
 
-@media only screen and (max-width: 665px){
-
+@media only screen and (max-width: 665px) {
   html {
     width: 100%;
     overflow-x: hidden;
@@ -1116,7 +1115,7 @@ nav::before {
   }
 
   .acting_chief {
-    font-size:  13px;
+    font-size: 13px;
   }
 
   .former_white_house {
@@ -1200,7 +1199,7 @@ nav::before {
 
   .culture {
     position: relative;
-    top:2000px;
+    top: 2000px;
     right: 55px;
     z-index: 1;
     width: 110%;
@@ -1258,7 +1257,7 @@ nav::before {
   .feat_img {
     width: 88%;
     position: relative;
-    left:  15px;
+    left: 15px;
     height: 230px;
   }
 
@@ -1276,8 +1275,8 @@ nav::before {
     position: relative;
     top: 950px;
   }
-
-  body{
+  
+  body {
     background-color: white;
   }
 
@@ -1295,35 +1294,35 @@ nav::before {
 
   .pence {
     position: relative;
-    left: 55px; 
+    left: 55px;
   }
 
   .cover1 {
     position: relative;
     left: 10px;
   }
-  
+
   .cover-us {
     width: 305px;
     height: 210px;
   }
-  
+
   .cosplay,
   .pol_img {
     width: 280px;
     height: 210px;
   }
-  
+
   .move {
     position: relative;
     right: 20px;
   }
-  
+
   .chrissy-teigen {
     width: 308px;
     height: 210px;
   }
-  
+
   .awar_img {
     width: 290px;
     height: 210px;
@@ -1382,7 +1381,7 @@ nav::before {
     position: relative;
     bottom: 30px;
   }
-  
+
   .my_footer {
     position: relative;
     top: 620em;
@@ -1414,7 +1413,8 @@ nav::before {
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
+
   .my_main {
     display: grid;
     grid-template-columns: 1fr 1fr;
