@@ -1062,6 +1062,7 @@ nav::before {
     position: relative;
     right: 10px;
     width: 103%;
+    background-color: white;
   }
 
   .red-back {
@@ -1210,7 +1211,7 @@ nav::before {
   .small_img {
     width: 100%;
   }
-  
+
   .col1_small {
     order: 2;
     position: relative;
@@ -1236,7 +1237,7 @@ nav::before {
     top: 200px;
     right: 50px;
   }
-  
+
   .my_edit {
     position: relative;
     top: 50px;
@@ -1270,14 +1271,10 @@ nav::before {
   .my_words {
     font-size: 13px;
   }
-  
+
   .my_main_container {
     position: relative;
     top: 950px;
-  }
-  
-  body {
-    background-color: white;
   }
 
   .nav-list {
@@ -1287,7 +1284,7 @@ nav::before {
     margin-right: 40px;
     width: 70%;
   }
-  
+
   .magazine-title {
     padding-top: 35px;
   }
@@ -1414,7 +1411,6 @@ nav::before {
 }
 
 @media only screen and (max-width: 768px) {
-
   .my_main {
     display: grid;
     grid-template-columns: 1fr 1fr;
