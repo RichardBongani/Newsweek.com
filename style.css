@@ -473,12 +473,6 @@ nav::before {
   bottom: 30px;
   padding-top: 55px;
 }
-/* 
-.my-container {
-  margin: 0 10px 0 10px;
-  padding-bottom: 5%;
-
-} */
 
 .my_main_container {
   position: relative;
@@ -707,13 +701,6 @@ nav::before {
   position: relative;
   left: 15px;
 }
-
-/* .my_footer {
-  background-color: white;
-  height: 250px;
-  position: relative;
-  bottom: 35px;
-} */
 
 .facebook,
 .twitter,
@@ -1056,14 +1043,11 @@ nav::before {
   top: 80px;
 }
 
-
-
-/********3*********MEDIA QUERY STARTS HERE*****************/
 @media only screen and (max-width: 665px){
-    html {
-        width: 100%;
-        overflow-x: hidden;
-    }
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
 
 .nav-items {
   position: relative;
@@ -1075,102 +1059,84 @@ nav::before {
   height: 80vh;
 }
 
-  body {
-    position: relative;
-    right: 10px;
-    width: 103%;
-  }
-
-  .red-back {
-      height: 55px;
-      position: relative;
-      right: 35px;
-  }
-
-  .title {
-      font-size: 20px;
-      position: relative;
-      left: 100px;
-      top: 55px;
-      
-  }
-
-  .nav {
-      position: relative;
-      top: 5px;
-  }
-
-  .my_content {
-      position: relative;
-      top: 0px;
-  }
-
-  .sign {
-    position: relative;
-    bottom: 65px;
-    right: 300px;
-    font-size: 15px;
-  }
-
-  .sub {
-    position: relative;
-    top: 65px;
-    right: 160px;
-    height: 25px;
-    width: 80px;
-    font-size: 10px;
-  }
-
-  /********************
-  .img_fire, 
-  .Donald_trump, 
-  .congress, 
-  .americas_customer_service {
-      width: 97%;
-      height: 220px;
-  }
-
-  .col1_small{
-      position: relative;
-      bottom: 35px;
-  }*/
- /* .col1_small {
-     display: none;
- } */
-
-  .speech {
-    width: 120%;
-    height: 220px;
+body {
+  position: relative;
+  right: 10px;
+  width: 103%;
 }
 
-  .top {
-    position: relative;
-    right: 65px;
-    bottom: 35px;
+.red-back {
+  height: 55px;
+  position: relative;
+  right: 35px;
 }
 
-  .former-white {
-    width: 325px;
-    margin: 0 15px 0 3px;
-  }
+.title {
+  font-size: 20px;
+  position: relative;
+  left: 100px;
+  top: 55px;
+}
 
-  .acting_chief {
-      font-size:  13px;
-  }
+.nav {
+  position: relative;
+  top: 5px;
+}
+
+.my_content {
+  position: relative;
+  top: 0px;
+}
+
+.sign {
+  position: relative;
+  bottom: 65px;
+  right: 300px;
+  font-size: 15px;
+}
+
+.sub {
+  position: relative;
+  top: 65px;
+  right: 160px;
+  height: 25px;
+  width: 80px;
+  font-size: 10px;
+}
+
+.speech {
+  width: 120%;
+  height: 220px;
+}
+
+.top {
+  position: relative;
+  right: 65px;
+  bottom: 35px;
+}
+
+.former-white {
+  width: 325px;
+  margin: 0 15px 0 3px;
+}
+
+.acting_chief {
+  font-size:  13px;
+}
 
 .former_white_house {
   font-size: 17px;
-  }
+}
 
 .donald {
   width: 130%;
   padding-left: 55px;
-  }
+}
 
 .donald1 {
   width: 180%;
   padding-left: 55px;
-  }
+}
 
 .russia {
   position: relative;
@@ -1215,79 +1181,79 @@ nav::before {
   right: 60px;
   bottom: 910px;
   width: 10%;
-  }
+}
 
   .everyone-loses-img {
-      float: left;
-  }
+  float: left;
+}
 
   .short-term {
-      font-size: 13px; 
-  }
+  font-size: 13px; 
+}
 
-  .m_line {
-      position: relative;
-      top: 20px;
-      width: 335px;
-  }
+.m_line {
+  position: relative;
+  top: 20px;
+  width: 335px;
+}
 
-  .everyone-loses-img {
-      float: left;
-  }
+.everyone-loses-img {
+  float: left;
+}
 
-  .new_one {
-    position: relative;
-    left: 65px;
-  }
+.new_one {
+  position: relative;
+  left: 65px;
+}
 
-  .new_one {
-    width: 90%;
-  }
+.new_one {
+  width: 90%;
+}
 
-  .culture {
-    position: relative;
-    top:2000px;
-    right: 55px;
-    z-index: 1;
-    width: 110%;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.culture {
+  position: relative;
+  top:2000px;
+  right: 55px;
+  z-index: 1;
+  width: 110%;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-  .small_img {
-    width: 100%;
-  }
+.small_img {
+  width: 100%;
+}
 
-  .col1_small {
-    order: 2;
-    position: relative;
-    bottom: 1150px;
-    width: 100%;
-  }
+.col1_small {
+  order: 2;
+  position: relative;
+  bottom: 1150px;
+  width: 100%;
+}
 
-  .president {
-    position: relative;
-    left: 30px;
-    bottom: 30px;
-    z-index: 2;
-  }
+.president {
+  position: relative;
+  left: 30px;
+  bottom: 30px;
+  z-index: 2;
+}
 
-  .indepth{
-    position: relative;
-    left: 10px;
-  }
+.indepth{
+  position: relative;
+  left: 10px;
+}
 
-  .all1 {
-    width: 65vw;
-    position: relative;
-    top: 200px;
-    right: 50px;
-  }
+.all1 {
+  width: 65vw;
+  position: relative;
+  top: 200px;
+  right: 50px;
+}
 
-  .my_edit {
-    position: relative;
-    top: 50px;
-  }
+.my_edit {
+  position: relative;
+  top: 50px;
+}
 
 .col1_small p {
   width: 80%;
@@ -1326,10 +1292,6 @@ nav::before {
 body{
   background-color: white;
 }
-
-/* .ex-trump {
-  float: left;
-} */
 
 .nav-list {
   position: relative;
@@ -1464,21 +1426,15 @@ body{
   position: relative;
   right: 15px;
 }
-
-/* .my-container {
-  position: relative;
-  left: 35px;
-} */ 
-
 }
 
 @media only screen and (max-width: 768px){
-  .my_main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+.my_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-  .pi {
-    width: 450%;
-  }
+.pi {
+  width: 450%;
+}
 } 
