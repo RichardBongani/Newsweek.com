@@ -1244,12 +1244,6 @@ nav::before {
     position: relative;
     left: 20px;
   }
-/* 
-  .me {
-    position: relative;
-    top: 2500px;
-    width: 100%;
-  } */
 
   .feat_img {
     width: 88%;
@@ -1483,6 +1477,9 @@ nav::before {
     width: 70vw;
     padding-left: 45px;
     padding-top: 35px;
+    position: relative;
+    left: 250px;
+    width: 120vw;
   }
 
   .my-container,
@@ -1521,12 +1518,6 @@ nav::before {
   .late_img2 {
     width: 45vw;
     height: 20vh;
-  }
-
-  .late_news {
-    position: relative;
-    left: 250px;
-    width: 120vw;
   }
 
   .link-official,
@@ -1570,7 +1561,6 @@ nav::before {
   .president {
     position: relative;
     bottom: 90px;
-    
   }
 
   .footer_link,
