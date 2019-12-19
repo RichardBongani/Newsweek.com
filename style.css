@@ -1474,7 +1474,6 @@ nav::before {
   }
 
   .late_news {
-    width: 70vw;
     padding-left: 45px;
     padding-top: 35px;
     position: relative;
@@ -1582,7 +1581,7 @@ nav::before {
     bottom: 140px;
   }
 
-  .foo_list{
+  .foo_list {
     position: relative;
     left: 100px;
     top: 190px;
