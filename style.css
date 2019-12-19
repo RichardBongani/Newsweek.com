@@ -1041,7 +1041,7 @@ nav::before {
   top: 80px;
 }
 
-@media only screen and (max-width: 665px) {
+@media only screen and (max-width: 386px) {
   html {
     width: 100%;
     overflow-x: hidden;
@@ -1058,9 +1058,6 @@ nav::before {
   }
 
   body {
-    position: relative;
-    right: 10px;
-    width: 103%;
     background-color: white;
   }
 
@@ -1247,12 +1244,12 @@ nav::before {
     position: relative;
     left: 20px;
   }
-
+/* 
   .me {
     position: relative;
     top: 2500px;
     width: 100%;
-  }
+  } */
 
   .feat_img {
     width: 88%;
@@ -1415,12 +1412,13 @@ nav::before {
     grid-template-columns: 1fr 1fr;
   }
 
-  /* body,html,main {
-    width: 100%;
-  } */
+  body {
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
 
   .pi {
-    width: 450%;
+    width: 45vw;
   }
 
   .new2 {
@@ -1431,6 +1429,27 @@ nav::before {
     width: 230%;
   }
 
+  .old_feat {
+    width: 250%;
+  }
+
+  .opinions2 {
+    width: 800%;
+  }
+
+  .sent_opinion1 {
+    position: relative;
+    top: 20px;
+  }
+
+  .auth {
+    width: 230%;
+  }
+
+  .writer {
+    width: 190%;
+    height: 100%;
+  }
 
   .feat_img {
     width: 120vw;
@@ -1460,18 +1479,137 @@ nav::before {
     width: 150%;
   }
 
-  /* .late_news {
-    width: 40vw;
+  .late_news {
+    width: 70vw;
     padding-left: 45px;
     padding-top: 35px;
-  } */
+  }
 
   .my-container,
   .edit_p {
-    width: 200%;
+    width: 300%;
   }
 
-  .u_and_sa {
+  .my_edit {
+    width: 110%;
+  }
+
+  .u_sa {
+    width: 100%;
+    height: 45vh;
+  }
+
+  .sub_news {
+    width: 250%;
+    padding-left: 150px;
+  }
+
+  .amg {
+    width: 50vw;
+    height: 20vh;
+  }
+
+  .me {
+    width: 150%;
+  }
+
+  .peter-img,
+  .ner {
+    width: 37vw;
+  }
+
+  .late_img2 {
+    width: 45vw;
+    height: 20vh;
+  }
+
+  .late_news {
+    position: relative;
+    left: 250px;
+    width: 120vw;
+  }
+
+  .link-official,
+  .link_story {
+    font-size: 35px;
+  }
+
+  .img_ns {
+    position: relative;
+    left: 500px;
+    bottom: 45px;
+  }
+
+  #sign-up {
+    width: 55vw;
+    height: 25vh;
+  }
+
+  .letter2 {
+    font-size: 25px;
+  }
+
+  .none {
     display: none;
+  }
+
+  .in_depth2 {
+    width: 190vw;
+    height: 70%;
+  }
+
+  .depth_cont {
+    width: 490%;
+  }
+
+  .pres_ima {
+    width: 80%;
+    height: 50vh;
+  }
+
+  .president {
+    position: relative;
+    bottom: 90px;
+    
+  }
+
+  .footer_link,
+  .edition_link,
+  .list_edition {
+    font-size: 85px;
+  }
+
+  .listi_link {
+    font-size: 125px;
+  }
+
+  .my_social {
+    float: right;
+    width: 12%;
+    height: 12%;
+    position: relative;
+    left: 800px;
+    bottom: 140px;
+  }
+
+  .foo_list{
+    position: relative;
+    left: 100px;
+    top: 190px;
+  }
+
+  .foot_new {
+    position: relative;
+    width: 130%;
+  }
+
+  .edition_unlist,
+  .nav-list {
+    width: 390%;
+  }
+
+  .edition_unlist {
+    position: relative;
+    right: 630px;
   }
 }
