@@ -1041,7 +1041,7 @@ nav::before {
   top: 80px;
 }
 
-@media only screen and (max-width: 386px) {
+@media only screen and (max-width: 576px) {
   html {
     width: 100%;
     overflow-x: hidden;
@@ -1173,10 +1173,10 @@ nav::before {
     bottom: 910px;
     width: 10%;
   }
-
+/* 
   .everyone-loses-img {
     float: left;
-  }
+  } */
 
   .short-term {
     font-size: 13px;
@@ -1245,12 +1245,12 @@ nav::before {
     left: 20px;
   }
 
-  .feat_img {
+  /* .feat_img {
     width: 88%;
     position: relative;
     left: 15px;
     height: 230px;
-  }
+  } */
 
   .feature {
     position: relative;
@@ -1419,21 +1419,35 @@ nav::before {
     width: 100%;
   }
 
+  .im_g {
+    width: 120vw;
+  }
+
+  .pim {
+    font-size: 35px;
+  }
+
+  .morc {
+    height: 50vh;
+  }
+
   .new3 {
-    width: 230%;
+    width: 290%;
+    font-size: 35px;
   }
 
   .old_feat {
-    width: 250%;
+    width: 350%;
+    font-size: 35px;
   }
 
   .opinions2 {
-    width: 800%;
+    width: 900%;
   }
 
   .sent_opinion1 {
     position: relative;
-    top: 20px;
+    top: 150px;
   }
 
   .auth {
@@ -1441,28 +1455,29 @@ nav::before {
   }
 
   .writer {
-    width: 190%;
+    width: 150vw;
     height: 100%;
   }
 
   .feat_img {
-    width: 120vw;
-    height: 52vh;
+    width: 160vw;
+    height: 92vh;
   }
 
   .speech {
-    width: 85vw;
-    height: 55vh;
+    width: 140vw;
+    height: 95vh;
   }
 
   .small_img {
-    width: 35vw;
+    width: 75vw;
+    height: 55vh;
   }
 
   .culture {
     background-color: #f0f0f0;
-    width: 90vw;
-    height: 110vh;
+    width: 350%;
+    height: 280vh;
   }
 
   .container-fluid {
@@ -1473,17 +1488,21 @@ nav::before {
     width: 150%;
   }
 
+  .culttra {
+    font-size: 55px;
+  }
+
   .late_news {
-    padding-left: 45px;
-    padding-top: 35px;
+    padding-left: 40em;
+    padding-top: 95px;
     position: relative;
     left: 250px;
-    width: 120vw;
+    width: 2040%;
   }
 
   .my-container,
   .edit_p {
-    width: 300%;
+    width: 450%;
   }
 
   .my_edit {
@@ -1511,12 +1530,12 @@ nav::before {
 
   .peter-img,
   .ner {
-    width: 37vw;
+    width: 87vw;
   }
 
   .late_img2 {
-    width: 45vw;
-    height: 20vh;
+    width: 105vw;
+    height: 60vh;
   }
 
   .link-official,
@@ -1613,5 +1632,19 @@ nav::before {
   main {
     position: relative;
     top: 25px;
+  }
+
+  .pic-link {
+    width: 150%;
+    font-size: 45px;
+  }
+
+  .coveted-dem {
+    font-size: 35px;
+  }
+
+  main {
+    position: relative;
+    left: 70px;
   }
 }
