@@ -1601,4 +1601,17 @@ nav::before {
     position: relative;
     right: 630px;
   }
+
+  .red-back {
+    background-color: red;
+    height: 155px;
+    width: 500%;
+    position: relative;
+    left: 10px;
+  }
+
+  main {
+    position: relative;
+    top: 25px;
+  }
 }
