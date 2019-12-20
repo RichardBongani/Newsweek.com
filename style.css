@@ -654,10 +654,10 @@ nav::before {
   width: 25%;
 }
 
-  .my_footer {
-    position: relative;
-    top: 45em;
-  }
+.my_footer {
+  position: relative;
+  top: 45em;
+}
 
 .analysis-img {
   width: 100%;
@@ -1152,7 +1152,7 @@ nav::before {
     height: 80%;
   }
 
-  .cover1{
+  .cover1 {
     position: relative;
     left: 1em;
   }
@@ -1175,10 +1175,6 @@ nav::before {
     padding-left: 5em;
   }
 
-  .magazine-title {
-    padding-left: 7em;
-  }
-
   .analysis-img,
   .cosplay {
     width: 95%;
@@ -1196,7 +1192,7 @@ nav::before {
     display: none;
   }
 
-  .in_depth2  {
+  .in_depth2 {
     height: 125vh;
     width: 88vw;
     position: relative;
@@ -1315,7 +1311,6 @@ nav::before {
 }
 
 @media only screen and (max-width: 991px) {
-
   html {
     overflow-x: hidden;
   }
