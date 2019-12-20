@@ -1001,7 +1001,7 @@ nav::before {
 
 .indepth {
   position: relative;
-  bottom: 2em;
+  bottom: 250px;
   left: 190px;
 }
 
@@ -1051,7 +1051,7 @@ nav::before {
   top: 80px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
   html {
     overflow-x: hidden;
@@ -1077,7 +1077,7 @@ nav::before {
   .number3 {
     order: 2;
     position: relative;
-    top: 445em;
+    top: 370em;
     left: 6em;
   }
 
@@ -1140,16 +1140,11 @@ nav::before {
 
   .my_main_container {
     position: relative;
-    top: 300em;
+    top: 230em;
   }
 
   .pence {
     width: 100%;
-  }
-
-  .header-link {
-    position: relative;
-    left: 13em;
   }
 
   .cover-us {
@@ -1210,7 +1205,7 @@ nav::before {
 
   .mig12 {
     position: relative;
-    top: 20em;
+    bottom: 10em;
   }
 
   .all1 {
@@ -1264,12 +1259,7 @@ nav::before {
 
   .my_footer {
     position: relative;
-    top: 300em;
-  }
-
-  .nav-list {
-    position: relative;
-    top: em;
+    top: 240em;
   }
 
   .footer_nav {
@@ -1322,7 +1312,6 @@ nav::before {
     right: 18em;
     top: 0.5em;
   }
-
 }
 
 @media only screen and (max-width: 991px) {
@@ -1335,249 +1324,8 @@ nav::before {
     display: none;
   }
 
+  .indepth {
+    position: relative;
+    bottom: 235px;
+  }
 }
-
-/* @media only screen and (max-width: 768px) {
-  .my_main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  body {
-    overflow-x: hidden;
-    margin: 0 auto;
-  }
-
-  .pi {
-    width: 45vw;
-  }
-
-  .new2 {
-    width: 100%;
-  }
-
-  .im_g {
-    width: 120vw;
-  }
-
-  .pim {
-    font-size: 35px;
-  }
-
-  .morc {
-    height: 50vh;
-  }
-
-  .new3 {
-    width: 290%;
-    font-size: 35px;
-  }
-
-  .old_feat {
-    width: 350%;
-    font-size: 35px;
-  }
-
-  .opinions2 {
-    width: 900%;
-  }
-
-  .sent_opinion1 {
-    position: relative;
-    top: 150px;
-  }
-
-  .auth {
-    width: 230%;
-  }
-
-  .writer {
-    width: 150vw;
-    height: 100%;
-  }
-
-  .feat_img {
-    width: 160vw;
-    height: 92vh;
-  }
-
-  .speech {
-    width: 140vw;
-    height: 95vh;
-  }
-
-  .small_img {
-    width: 75vw;
-    height: 55vh;
-  }
-
-  .culture {
-    background-color: #f0f0f0;
-    width: 350%;
-    height: 280vh;
-  }
-
-  .container-fluid {
-    width: 90%;
-  }
-
-  .layout {
-    width: 150%;
-  }
-
-  .culttra {
-    font-size: 55px;
-  }
-
-  .late_news {
-    padding-left: 40em;
-    padding-top: 95px;
-    position: relative;
-    left: 250px;
-    width: 2040%;
-  }
-
-  .my-container,
-  .edit_p {
-    width: 450%;
-  }
-
-  .my_edit {
-    width: 110%;
-  }
-
-  .u_sa {
-    width: 100%;
-    height: 45vh;
-  }
-
-  .sub_news {
-    width: 250%;
-    padding-left: 150px;
-  }
-
-  .amg {
-    width: 50vw;
-    height: 20vh;
-  }
-
-  .me {
-    width: 150%;
-  }
-
-  .peter-img,
-  .ner {
-    width: 87vw;
-  }
-
-  .late_img2 {
-    width: 105vw;
-    height: 60vh;
-  }
-
-  .link-official,
-  .link_story {
-    font-size: 35px;
-  }
-
-  .img_ns {
-    position: relative;
-    left: 500px;
-    bottom: 45px;
-  }
-
-  #sign-up {
-    width: 55vw;
-    height: 25vh;
-  }
-
-  .letter2 {
-    font-size: 25px;
-  }
-
-  .none {
-    display: none;
-  }
-
-  .in_depth2 {
-    width: 190vw;
-    height: 70%;
-  }
-
-  .depth_cont {
-    width: 490%;
-  }
-
-  .pres_ima {
-    width: 80%;
-    height: 50vh;
-  }
-
-  .president {
-    position: relative;
-    bottom: 90px;
-  }
-
-  .footer_link,
-  .edition_link,
-  .list_edition {
-    font-size: 85px;
-  }
-
-  .listi_link {
-    font-size: 125px;
-  }
-
-  .my_social {
-    float: right;
-    width: 12%;
-    height: 12%;
-    position: relative;
-    left: 800px;
-    bottom: 140px;
-  }
-
-  .foo_list {
-    position: relative;
-    left: 100px;
-    top: 190px;
-  }
-
-  .foot_new {
-    position: relative;
-    width: 130%;
-  }
-
-  .edition_unlist,
-  .nav-list {
-    width: 390%;
-  }
-
-  .edition_unlist {
-    position: relative;
-    right: 630px;
-  }
-
-  .red-back {
-    background-color: red;
-    height: 155px;
-    width: 500%;
-    position: relative;
-    left: 10px;
-  }
-
-  main {
-    position: relative;
-    top: 25px;
-    left: 70px;
-  }
-
-  .pic-link {
-    width: 150%;
-    font-size: 45px;
-  }
-
-  .coveted-dem {
-    font-size: 35px;
-  }
-} */
