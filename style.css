@@ -1052,7 +1052,6 @@ nav::before {
 }
 
 @media only screen and (max-width: 768px) {
-
   html {
     overflow-x: hidden;
   }
@@ -1196,7 +1195,7 @@ nav::before {
     height: 125vh;
     width: 88vw;
     position: relative;
-    left: 2em
+    left: 2em;
   }
 
   .mig12 {
