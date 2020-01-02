@@ -18,7 +18,7 @@ We used HTML,CSS,Bootstrap to build this project
 # Author to the cloned page:
   -Richard  Bongani Phala<br>
   *Please take a look at our cloned site:
-  <a href="https://rawcdn.githack.com/RichardBongani/Newsweek.com/ec6cefd97b798fe468d7a736eb2ca3cddae4489b/index.html=file:///home/richard/Desktop/Newsweek.com/Newsweek.com/index.html">Click here</a>
+  <a href="https://rawcdn.githack.com/RichardBongani/Newsweek.com/6904978382757652cd77aaaaca6ee57f2a16b115/index.html">Click here</a>
 
 
 Thank you for taking a look at my code
