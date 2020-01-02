@@ -111,6 +111,7 @@ nav::before {
   line-height: 16px;
   text-transform: uppercase;
   padding-bottom: 11px;
+  color: #a0a0a0;
 }
 
 .section-image-category {
@@ -239,7 +240,6 @@ nav::before {
   margin-left: 10px;
 }
 
-hovering */
 .third-section-category:hover {
   color: #c2d4d7;
   background-color: #272727;
@@ -350,12 +350,6 @@ hovering */
 .eighth-section-a:hover {
   color: #333;
   text-decoration: none;
-}
-
-.section-title {
-  font-size: 20px;
-  font-weight: bold;
-  color: 	#A0A0A0;
 }
 
 .section-nine-features {
@@ -751,5 +745,3 @@ label {
     font-size: 22px;
   }
 }
-
-
